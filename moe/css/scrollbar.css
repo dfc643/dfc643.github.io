@@ -1,0 +1,85 @@
+::-webkit-scrollbar {
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    position: relative !important;
+    overflow: hidden !important;
+    z-index: 999999999 !important;
+    width: 3px;
+    height: 3px;
+}
+
+/* 滚动条按钮基本样式 */
+::-webkit-scrollbar-thumb {
+    -moz-appearance: none !important;
+    background-color: rgba(128,128,128,.4) !important;
+    border-radius: 5px !important;
+    border: 2px !important;
+    /* 滚动条按钮边框 */
+    border-color: rgba(0,255,255,0) !important;
+    /* 滚动条按钮边框颜色和透明度 */
+}
+/* 滚动条按钮:鼠标悬停与点击拖动时基本样式 */
+ 
+scrollbar:hover thumb,
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128,128,128,.7) !important;
+    border: 0px !important;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(128,128,128,1) !important;
+    border: 0px !important}
+		
+/* 垂直滚动条 */
+ 
+/* 把滚动条位置移到屏幕外，这里的像素应该等于垂直滚动条宽度的负值 */
+ 
+::-webkit-scrollbar[orient="vertical"] {
+    margin-left: -10px !important;
+    min-width: 10px !important;
+    min-height: 100px !important;
+}
+/* 垂直滚动条按钮的左边框样式 */
+ 
+::-webkit-scrollbar-thumb[orient="vertical"] {
+    border-style: none none none solid !important;
+    min-height: 100px !important;
+}
+/* 水平滚动条 */
+ 
+/* 把滚动条位置移到屏幕外，这里的像素应该等于垂直滚动条宽度的负值 */
+ 
+::-webkit-scrollbar[orient="horizontal"] {
+    margin-top: -10px !important;
+    min-height: 10px !important;
+    max-height: 10px !important;
+    min-width: 100px !important;
+}
+/* 水平滚动条按钮的上边框样式 */
+ 
+::-webkit-scrollbar-thumb[orient="horizontal"] {
+    border-style: solid none none none !important;
+    min-width: 100px !important;
+}
+/* 去除垂直与水平滚动条相交汇的角落 */
+ 
+::-webkit-scrollbar-corner {
+    display: none ! important;
+}
+/* 滚动条两端按钮不显示 */
+ 
+::-webkit-scrollbar-button {
+    display: none ! important;
+}
+
+/* 自动隐藏 */
+:not(select):not(:hover)>scrollbar:not(:hover),
+scrollbar:not(:hover)
+{ 
+  opacity: 0 !important; 
+  transition: all .5s !important; 
+}
+
+
+

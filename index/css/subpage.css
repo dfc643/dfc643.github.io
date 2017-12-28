@@ -1,0 +1,52 @@
+/* ///////////////////////////////////
+STYLE:  NORCLISH BANNER FOR SUBPAGE
+DESIGN: NORCKON
+DATE:   06/20/2014  TRU  20:45
+USE:    PRIVATE
+/////////////////////////////////// */
+
+@charset "utf-8";
+
+@-webkit-keyframes banner-title {
+    0%      {top:0.5px;text-shadow:0 0 0px #ffffff;}
+    90%     {top:40.5px;}
+    100%    {top:28.5px;text-shadow:0 0 10px #ffffff;}
+}
+
+@-moz-keyframes banner-title {
+    0%      {top:0.5px;text-shadow:0 0 0px #ffffff;}
+    90%     {top:40.5px;}
+    100%    {top:28.5px;text-shadow:0 0 10px #ffffff;}
+}
+
+@-webkit-keyframes banner-text {
+    0%      {color:rgba(255,255,255,0.0);}
+    40%     {color:rgba(255,255,255,0.0);}
+    85%     {color:rgba(255,255,255,0.9);}
+    100%    {color:rgba(255,255,255,0.5);}
+}
+
+@-moz-keyframes banner-text {
+    0%      {color:rgba(255,255,255,0.0);}
+    40%     {color:rgba(255,255,255,0.0);}
+    85%     {color:rgba(255,255,255,0.9);}
+    100%    {color:rgba(255,255,255,0.5);}
+}
+
+#banner {
+    height:200px;
+}
+
+#banner .banner-inner .banner-title {
+    top:28.5px;
+	text-align:left;
+	text-shadow:0 0 0;
+	-moz-animation:banner-title 1s;
+    -webkit-animation:banner-title 1s;
+}
+
+#banner .banner-inner .banner-text {
+	padding-top:104px;
+	padding-left:60px;
+	color: rgba(255, 255, 255, 0.5);
+}

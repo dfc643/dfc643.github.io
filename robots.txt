@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /webapp/ip.php?*
+Disallow: /ip.np?*

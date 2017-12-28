@@ -1,0 +1,93 @@
+/* ///////////////////////////////////
+STYLE:  NORCLISH BANNER
+DESIGN: NORCKON
+DATE:   03/20/2014  TRU  20:46
+USE:    PRIVATE
+/////////////////////////////////// */
+
+@charset "utf-8";
+
+@-webkit-keyframes banner-title {
+    0%      {top:15.5px;text-shadow:0 0 0px #ffffff;}
+    90%     {top:220.5px;}
+    100%    {top:188.5px;text-shadow:0 0 10px #ffffff;}
+}
+
+@-moz-keyframes banner-title {
+    0%      {top:15.5px;text-shadow:0 0 0px #ffffff;}
+    90%     {top:220.5px;}
+    100%    {top:188.5px;text-shadow:0 0 10px #ffffff;}
+}
+
+@-webkit-keyframes banner-bkg {
+    0%      {background:#5D93E4;}
+    33%     {background:#935DE4;}
+    66%     {background:#dd6af3;}
+    100%    {background:#6AB1F3;}
+}
+
+@-moz-keyframes banner-bkg {
+    0%      {background:#5D93E4;}
+    33%     {background:#935DE4;}
+    66%     {background:#dd6af3;}
+    100%    {background:#6AB1F3;}
+}
+
+@-webkit-keyframes banner-text {
+    0%      {color:rgba(255,255,255,0.0);}
+    65%     {color:rgba(255,255,255,0.0);}
+    85%     {color:rgba(255,255,255,0.5);}
+    100%    {color:rgba(255,255,255,0.2);}
+}
+
+@-moz-keyframes banner-text {
+    0%      {color:rgba(255,255,255,0.0);}
+    65%     {color:rgba(255,255,255,0.0);}
+    85%     {color:rgba(255,255,255,0.5);}
+    100%    {color:rgba(255,255,255,0.2);}
+}
+
+#banner {
+    width:100%; height:500px;
+    background:#03AEFF;  /* FOR IE */
+    background:linear-gradient(#2B5AAC, #6AE3F3);
+    margin-bottom:10px;
+    -moz-animation:banner-bkg 2s;
+    -webkit-animation:banner-bkg 2s;
+}
+
+#banner .banner-inner {
+    width:1000px; height:500px;
+    margin:0 auto;
+}
+
+#banner .banner-inner .banner-title {
+    position:absolute;
+    width:1000px;
+    top:188.5px;
+    font-size:5em;
+    color:white;
+    text-align:center;
+    text-shadow:0 0 10px #ffffff;
+    -moz-animation:banner-title 2s;
+    -webkit-animation:banner-title 2s;
+    z-index:999;
+}
+
+#banner .banner-inner .banner-title > a {
+    color:#FFFFFF;
+    transition:text-shadow .5s;
+}
+
+#banner .banner-inner .banner-title > a:hover {
+    text-shadow: 0 0 20px #ffffff;
+}
+
+#banner .banner-inner .banner-text {
+    position:absolute;
+    color: rgba(255,255,255,0.2);
+    font-size:36px; 
+    margin:0;
+    -moz-animation:banner-text 3.5s;
+    -webkit-animation:banner-text 3.5s;
+}

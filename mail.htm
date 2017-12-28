@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!OWN FC-SYSTEM> <!-- Marked by FC-SYSTEM -->
+<!--
+
+           FFFFFFF CCCCCC     SSSSSS  YY   YY  SSSSSS  TTTTTTTT EEEEEEE  MMMMMMMMM
+           FF      CC         SS      YY   YY  SS         TT    EE       MMMMMMMMM
+           FFFFFFF CC     ##  SS      YY   YY  SS         TT    EE       MM  MM  M
+           FF      CC     ##  SSSSSS  YYYYYYY  SSSSSS     TT    EEEEEEE  MM  MM  M
+           FF      CC     ##      SS       YY      SS     TT    EE       MM  MM  M
+           FF      CC             SS       YY      SS     TT    EE       MM  MM  M
+           FF      CCCCCC     SSSSSS  YYYYYYY  SSSSSS     TT    EEEEEEE  MM  MM  M
+   
+   
+                                 DESIGNED BY PEKAIKON NORCKON
+
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Norckon | I'm Pekaikon Norckon</title>
+    
+    <!-- Stylesheet and Script Links -->
+    <link href="moe/css/common.css" type="text/css" rel="stylesheet"/>
+    <link href="moe/css/perspectiveRules.css" rel="stylesheet" />
+    <link href="moe/css/scrollbar.css" rel="stylesheet" />
+    <link href='//lib.fcsys.org/fontproxy/?font=Josefin+Sans|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+    
+    <!--[if gte IE 9]>
+        <style type="text/css">
+            .gradient {filter: none;}
+        </style>
+    <![endif]-->
+</head>
+<body>
+    <div id="main">
+        <!-- TOP MENU -->
+        <div id="topbar">
+            <!-- Main menu items -->
+            <div id="menubar">
+                <div class="logo">Norckon</div>                     
+                <div class="lightblue"><a href="index.htm">TOP</a></div>
+                <div class="red"><a href="index/aboutme.htm">ABME</a></div>
+                <div class="green"><a href="index/project.htm">PROJ</a></div>
+                <div class="yellow"><a href="index/apps.htm">APPS</a></div>
+                <div class="pink"><a href="//github.com/dfc643" target="_blank">GITHUB</a></div>
+                <div class="blue current">MAIL</div>
+                <div class="purple"><a href="//b.fcsys.org">BLOG</a></div>
+            </div>
+        </div>
+        
+        <!-- MAILBOX -->
+        <div id="mailbox">
+            <form name="form1" action="//exmail.qq.com/cgi-bin/login" method="post">
+                <!-- Parameters -->
+                <input type="hidden" name="firstlogin" value="false">
+                <input type="hidden" name="errtemplate" value="dm_loginpage">
+                <input type="hidden" name="aliastype" value="other">
+                <input type="hidden" name="dmtype" value="bizmail">
+                <input type="hidden" name="p" value="">
+                <input type="hidden" name="domain" value="fcsys.org">
+                <!-- GUI -->
+                <div class="title">Private Mail Login</div>
+                <div class="username" style="margin-top: 15px"><input type="text" name="uin" class="text" value="" placeholder="Username (e.g. Norckon)"></div>
+                <div class="password" style="margin-bottom: 15px"><input type="password" name="pwd" class="text" value="" placeholder="Password"></div>
+                <div class="login-btn"><input type="submit" value="Login Mailbox (with @fcsys.org)"></div>
+            </form>
+        </div>
+        
+        <!-- FOOTER -->
+        <div id="footer">
+            <!-- WEBPAGE FOOTER -->
+            <table border="0" width="100%" height="100%"><tr><td>
+                &copy;2011-2016 FC-System Computer Inc.<br>
+				Theme designed by <a href="//www.fcsys.org" target="_blank">Pekaikon Norckon</a><br>
+            </td></tr></table>
+        </div>
+    </div>
+    
+    <!-- COVER BAR -->
+    <div id="cover-bottom"></div>
+    
+    <!-- EFFECT OF BANNER -->
+    <script src="//lib.fcsys.org/jquery/jquery-1.11.0.min.js"></script>
+	<script src="moe/js/jquery.logosDistort.min.js"></script>
+	<script>
+	    var particles = false,
+	        options = {
+	            effectWeight: 1,
+	            outerBuffer: 1.08,
+	            elementDepth: 220
+	        };
+
+        $("#banner").click(function(){
+            window.location.href="//b.fcsys.org";
+        });
+        
+        function DisableEffectForSomeWidth(){
+            if(document.documentElement.clientWidth < 850){
+                $("#banner .ld-smart-container").css("display","none");
+                $("#banner img").css("display","none");
+                $("#banner").css("background-position","70% 20%");
+            } else if(document.documentElement.clientWidth > 1920){
+                $("#banner .ld-smart-container").css("display","none");
+                $("#banner img").css("display","none");
+                $("#banner").css("background-position","center 20%");
+            } else if((document.documentElement.clientWidth / document.documentElement.clientHeight) < 1.55){
+                $("#banner .ld-smart-container").css("display","none");
+                $("#banner img").css("display","none");
+                $("#banner").css("background-position","center 20%");
+            } else if((document.documentElement.clientWidth / document.documentElement.clientHeight) > 2.00){
+                $("#banner .ld-smart-container").css("display","none");
+                $("#banner img").css("display","none");
+                $("#banner").css("background-position","center 20%");
+            } else {
+                $("#banner img").css("display","block");
+                $("#banner .ld-smart-container").css("display","block");
+                $("#banner").css("background-position","70% top");
+            }
+        }
+        function DisableEffectForAndroid(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; 
+            var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+            if(isAndroid || isiOS){
+                $("#banner .ld-smart-container").css("display","none");
+            } else {
+                $("#banner img").css("display","block");
+                $("#banner").logosDistort(options);
+                DisableEffectForSomeWidth();
+            }
+        }
+        $(document).ready(function() {DisableEffectForAndroid()});
+        $(window).resize(function() {DisableEffectForSomeWidth()});
+	</script>
+	
+	<!--CNZZ-->
+	<div style="display:none"><script src="//s11.cnzz.com/stat.php?id=1254094017&web_id=1254094017" language="JavaScript"></script></div>
+    <!--Baidu-->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8b03fbe181f1821cbcbb22c52a2336da";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    <!--GOOGLE-->
+    <!-- [if !IE]>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-49020483-1', 'fcsys.org');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+    <![endif]-->
+</body>
+</html>
