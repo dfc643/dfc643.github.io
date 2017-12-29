@@ -1,0 +1,482 @@
+/*
+Theme Name: New World
+Theme URI: http://www.webcreatormana.com/newworld-ja/
+Description: WordPress 3.0の新機能を搭載したカラフルだけど落ち着きのあるデザインのテーマ
+Version: 1.4
+Author: Mana
+Author URI: http://webcreatormana.com
+*/
+
+
+
+/****************************************
+		1. General Setting 
+*****************************************/
+
+html, body, div, span, applet, object, iframe, strong,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend, caption, 
+tbody, tfoot, thead, table, label, tr, th, td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	list-style:none;
+	}
+
+html{background: url(images/bg_header.jpg) no-repeat top center;}
+
+body{
+    background: url(images/bg_footer.jpg) no-repeat bottom center;
+    font: 14px/22px Ubuntu,"文泉驿微米黑","微软雅黑","宋体","MS PGothic",Helvetica,Arial,Sans-Serif;
+	color: #333;
+	} 
+
+a{ color: #09c; text-decoration: underline;}
+	a:hover{ color: #8bc; }
+
+.clear{ clear: both; line-height: 0}
+	
+
+
+/****************************************
+		2. Basic Layout 
+*****************************************/
+#page{background: url(images/bg_header_black.png) repeat-x top left;}
+#wrapper{width: 940px; margin: 0 auto;}
+#header{height: 112px; margin-bottom:35px;padding-top: 27px;}
+#contents{
+	border: 1px #ddd solid;
+	min-height: 663px;
+	background: rgba(255, 255, 255, 0.7) url(images/bg_contents_top.png) no-repeat bottom center;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#70ffffff,endColorstr=#70ffffff); /* IE */
+	zoom: 1; /* IE */
+	}
+#main{width:570px; padding:35px; float: left;}
+#side{width: 260px; padding: 35px 35px 35px 0; float: left;}
+#footer{
+	background: url(images/bg_contents_bottom.png) no-repeat top center;
+	padding-top:55px;
+	}
+	*:first-child+html #footer{margin-top:-5px;}
+
+
+
+/****************************************
+		3.  Header, Menu
+*****************************************/
+.blog_title{
+	color: #fff;
+	font-size:200%;
+	text-shadow: 3px 3px 3px #000;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:"宋体" !important;
+	}
+	.blog_title:hover{color: #ccc}
+#header p{color:#999;font-size:90%;margin-top:10px;}
+
+/*** Main Menu ***/
+ul#nav, div.menu ul{
+	position:absolute;
+	top:100px;
+	height: 38px;
+	font-size:90%;
+	border-left:1px solid #000;
+	}
+	.admin-bar ul#nav, .admin-bar div.menu ul{top:128px;}
+
+	ul#nav{
+		margin-top:4px;
+	}
+	ul#nav li, div.menu ul li{
+		float: left;
+		position: relative;
+		border-right:1px solid #999;
+		}
+	ul#nav > li:first-child, div.menu ul > li:first-child{
+		border-left:1px solid #999;
+		}
+		ul#nav li > a{margin-top: -1px;}
+		ul#nav li > a, div.menu ul li > a{
+			color: #fff;
+			padding:8px 13px;
+			text-decoration:none;
+			display: block;
+			border-right:1px solid #000;
+			}
+			ul#nav li:hover > a,
+			ul#nav > li.current_page_item > a,
+			ul#nav > li.current_page_ancestor > a,
+			ul#nav > li.current-menu-item > a,
+			ul#nav > li.current-category-ancestor > a,
+			div.menu ul li:hover > a,
+			div.menu ul > li.current_page_item a,
+			div.menu ul > li.current_page_ancestor > a,
+			div.menu ul > li.current-menu-item > a,
+			div.menu ul > li.current-category-ancestor > a{
+				 /* Webkit */
+				background: -webkit-gradient(linear, left top, left bottom,
+					from(rgba(0,0,0,0.1)),
+					to(rgba(0,0,0,0.95)),
+					color-stop(.5,#333333));
+					
+				 /* FF */
+				background: -moz-linear-gradient(rgba(
+					0, 0, 0, 0.1),
+					rgba(0, 0, 0, 0.95));
+					
+				 /* IE */
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#95000000);
+				zoom:1;
+				}
+	/*** Children Menu ***/
+	ul#nav ul, div.menu ul ul{
+		display: none;
+		border:1px solid #ccc;
+		position: absolute;
+		top: 38px;
+		left: 0;
+		float: left;
+		width: 180px;
+		z-index: 99999;
+		}
+		ul#nav ul{
+			box-shadow: 0 0 10px #fff;
+			margin-top: -1px;
+		}
+		ul#nav ul li, div.menu ul ul li { width: 180px;border:none;}
+			ul#nav ul li ul, div.menu ul ul li ul { left: 100%; top: 0; }
+				ul#nav ul li a, div.menu ul ul li a {
+					background: #000;
+					background: rgba(0, 0, 0, 0.8);
+					filter:alpha(opacity=70);  /* IE7 */
+    				-ms-filter: "alpha(opacity=70)"; /* IE8 */
+					}
+					ul#nav ul li:hover > a, div.menu ul ul li:hover{background: #666;}
+	ul#nav li:hover > ul, div.menu ul li:hover > ul{ display: block;}
+
+
+/****************************************
+		4.  Main
+*****************************************/
+/*** Blog info ***/
+div.blog_info{
+	background: rgba(0, 0, 0, 0.1);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#20000000,endColorstr=#20000000); /* IE */
+	zoom: 1; /* IE */
+	color: #666;
+	font-size:85%;
+	padding: 5px;
+	margin: 0 0 20px;
+	}
+	div.blog_info ul{margin:0;}
+		div.blog_info li{
+			float: left;
+			padding-left:20px;
+			margin:0 15px 0 5px !important;
+			list-style: none !important
+			}
+			div.blog_info li a{color: #666}
+				div.blog_info li a:hover{color: #333}
+	div.blog_info li.cal{background: url(images/icon_cal.png) no-repeat 0 2px;}
+	div.blog_info li.cat{background: url(images/icon_cat.png) no-repeat 0 2px;}
+	div.blog_info li.tag{background: url(images/icon_tag.png) no-repeat 0 2px;}
+	
+/*** Contents ***/
+img.attachment-post-thumbnail{float: left; margin:0 15px 0 0 !important;}
+a.more-link{
+	background:url("images/arrow_next.png") no-repeat right top;
+	color:#333;
+	font-size:85%;
+	padding:2px 20px 5px 10px;
+	text-align:right;
+	text-decoration:none;
+	margin-left:480px;
+	display:block;
+	}
+	a.more-link:hover{color: #999}
+	
+/*** Bottom Navigation, Comment Navigation ***/
+div.nav-below{margin: 40px 0 0;overflow:auto;}
+div.navigation{overflow:auto;}
+	div.navigation a{margin-bottom:10px}
+
+	.nav-previous a, .nav-next a,
+	div.navigation .alignleft a, div.navigation .alignright a{
+		color:#333;
+		font-size:85%;
+		text-decoration:none;
+		}
+		.nav-previous a:hover, .nav-next a:hover,
+		div.navigation .alignleft a:hover, div.navigation .alignright a:hover{
+			color: #999
+			}
+			
+	.nav-previous a, div.navigation .alignleft a{
+		float:left;
+		padding:2px 10px 2px 20px;
+		background:url("images/arrow_prev.png") no-repeat left top;
+		}
+	.nav-next a, div.navigation .alignright a{
+		float:right;
+		text-align:right;
+		padding:2px 20px 2px 10px;
+		background:url("images/arrow_next.png") no-repeat right top;
+		}
+		
+
+/****************************************
+		5. Post Entry 
+*****************************************/
+.title{
+	color:#333;
+	font-size:200% !important;
+	line-height:35px;
+	margin:50px 0 15px !important;
+	border:none !important;
+	padding: 0 !important;
+	font-family: "Segoe UI Light","宋体" !important;
+	}
+	div.post:first-child .title{margin-top:0 !important;}
+	.title a{color: #333;text-decoration:none;}
+		.title a:hover{color: #999}
+		
+.post h2, .post h3, .post h4, .post h5, .post h6{margin: 30px 0 10px}
+.post h2{font-size:160%; border-bottom:5px solid #ccc; padding-bottom:10px;}	
+.post h3{font-size:140%;}
+.post h4{font-size:120%;}
+.post h5{font-size:110%;}
+
+.post p{margin-bottom:5px;}
+.post em{font-style: italic;}
+.post code{color: #06c; font-family:'Courier New',Courier,monospace;}
+.post img{
+	border:1px #ccc solid;
+	padding: 3px;
+	background: #fff;
+	margin:20px 0;
+	}
+	.post img.wp-smiley{border:none;padding:0;background:none;margin:0;}
+.post blockquote{
+	border-left:5px solid #ddd;
+	background: #eee;
+	padding: 10px;
+	margin:20px 0;
+	font-style:italic;
+	}
+	.post blockquote p{margin:0;}
+.post div.wp-caption{margin: 20px 0;}
+	.post div.wp-caption img{ margin: 0;}
+	.post div.wp-caption p{ font-size:85%;}
+.post ul, .post ol{margin:20px 0;}
+	.post ul li{
+		list-style: url(images/arrow_list.png);
+		margin-left:20px;
+		}
+	.post ol li{list-style: decimal outside;margin-left:20px;}
+
+	
+
+/****************************************
+		6. Comments
+*****************************************/
+h3#comments{
+	padding: 10px 0 10px 10px;
+	clear: both;
+	margin-top:40px;
+	border-top:1px solid #ddd;
+	}
+	
+.commentlist{margin-bottom:30px;}
+	.commentlist li {
+		border-top:1px solid #ddd;
+		padding:15px 0 0 55px;
+		position:relative;
+		}
+	.commentlist .avatar {
+		background:#fff;
+		border:1px solid #ddd;
+		left:0;
+		margin:0 16px 0 0;
+		padding:3px;
+		position:absolute;
+		top:15px;
+		}
+	.commentlist .comment-meta{margin-bottom:10px;}
+		.commentlist .comment-meta a{
+			color: #999;
+			font-size:85%;
+			text-decoration:none;
+			}
+			.commentlist .comment-meta a:hover{color: #ccc;}
+	.commentlist p{margin-bottom:15px;}
+	.commentlist .reply a{
+		position: absolute;
+		top: 15px;
+		right: 0;
+		padding: 2px 10px;
+		background: #ddd;
+		font-size: 85%;
+		color: #333;
+		text-decoration: none;
+		}
+		.commentlist .reply a:hover {color: #999}
+		
+/*** Comment form ***/
+#respond{margin-top:70px;}
+#respond h3{
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+	padding:10px 0 10px 10px;
+	}
+
+#commentform{margin-top:20px;}
+	#commentform p{clear: both}
+	#commentform label{margin: 10px 5px;font-size:85%;}
+	*:first-child+html #commentform label{ position:relative\9; top: -15px\9; } /* IE7 */
+	#commentform input[type="text"], #commentform textarea{
+		margin: 5px 0 10px;
+		}
+		#commentform input[type="text"]:focus, #commentform textarea:focus{
+			border:1px solid #06c;
+			}
+
+		
+/****************************************
+		7.  widget
+*****************************************/
+#side h3{
+	background: rgba(0, 0, 0, 0.1);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#20000000,endColorstr=#20000000); /* IE */
+	zoom: 1; /* IE */
+	margin:30px 0 10px;
+	padding:5px 0 3px 10px;
+	}
+	#side li:first-child h3{margin-top:0;}
+	#side img{max-width: 100%;}
+	#side .screen-reader-text{display:none;}
+	#searchform input[id="s"]{width: 172px;}
+	
+#footer h3{
+	background: url(images/bg_footer_title.png) no-repeat;
+	padding-left:15px;
+	height: 42px;
+	}
+
+.widget-container a{text-decoration:none;}
+	
+.widget-container ul li{
+	list-style: url(images/arrow_list.png);
+	margin-left:20px;
+	}
+
+/*** Calendar ***/
+#wp-calendar {width: 100%;}
+	#wp-calendar caption {
+		color: #222;
+		font-size: 14px;
+		font-weight: bold;
+		padding-bottom: 4px;
+		text-align: left;
+		}
+	#wp-calendar thead {font-size: 11px;}
+	#wp-calendar tbody {color: #aaa;}
+		#wp-calendar tbody td {
+			background: #f5f5f5;
+			padding: 3px 0 2px;
+			text-align: center;
+			}
+		#wp-calendar tbody .pad {background: none;}
+	#wp-calendar tfoot #next {text-align: right;}
+	
+	
+/****************************************
+		8.  Form
+*****************************************/
+input[type="text"], textarea{
+	border:1px solid #ccc;
+	padding: 5px;
+	color: #666;
+	
+	/* Webkit */
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#eee),
+		to(#fff)
+		);
+	
+	/* FF */
+	background: -moz-linear-gradient(
+		top,
+		#eee,
+		#fff
+		);
+		
+	/* IE */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffeeeeee,endColorstr=#ffffffff);
+	zoom: 1;
+	}
+input[id="adminbar-search"]{
+	background:rgba(255,255,255,0);
+}
+	
+input[type="submit"]{
+	border:1px solid #ccc;
+	padding: 4px 10px;
+	color: #666;
+	cursor: pointer;
+
+	/* Webkit */
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#eee),
+		to(#ccc)
+		);
+	
+	/* FF */
+	background: -moz-linear-gradient(
+		top,
+		#eee,
+		#ccc
+		);
+		
+	/* IE */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffeeeeee,endColorstr=#ffcccccc);
+	zoom: 1;
+	}
+
+
+
+/****************************************
+		9.  Footer
+*****************************************/
+#footer .widget-area{
+	width:290px;
+	margin-left:35px;
+	float: left;
+	}
+	#footer .widget-area:first-child{margin-left:0;}
+
+
+p.copy{
+	clear: both;
+	font-size:80%;
+	text-align:center;
+	padding:40px 0;
+	color: #666
+	}
+	p.copy a{color: #999;}
+		p.copy a:hover{color: #ccc;}

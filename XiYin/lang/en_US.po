@@ -1,0 +1,2071 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Harmony 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-29 22:52+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _x;_n;_e;__;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../archive-event.php:9 ../home.php:85
+msgid "Upcoming Shows"
+msgstr ""
+
+#: ../comments.php:9
+msgid "0 Comments"
+msgstr ""
+
+#: ../comments.php:9 ../functions.php:246
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:13 ../comments.php:26
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:14 ../comments.php:27
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:33
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: ../comments.php:51 ../page-contact.php:122 ../page-search.php:59
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:51
+msgid "Submit a Comment"
+msgstr ""
+
+#: ../comments.php:51
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../content-event.php:14 ../home.php:95
+msgid "M"
+msgstr ""
+
+#: ../content-event.php:14 ../home.php:95
+msgid "d"
+msgstr ""
+
+#: ../content-event.php:25
+msgid "Event Info"
+msgstr ""
+
+#: ../content.php:31 ../page-blog.php:43 ../single-event.php:18
+#: ../single-gallery.php:22
+msgid "0 comments"
+msgstr ""
+
+#: ../content.php:31 ../page-blog.php:43 ../single-event.php:18
+#: ../single-gallery.php:22
+msgid "1 comment"
+msgstr ""
+
+#: ../content.php:31 ../page-blog.php:43 ../single-event.php:18
+#: ../single-gallery.php:22
+msgid "comments"
+msgstr ""
+
+#: ../content.php:39
+#, php-format
+msgid "Gallery Date: %1$s"
+msgstr ""
+
+#: ../content.php:59 ../image.php:60 ../single-event.php:74
+#: ../single-gallery.php:60
+msgid "Pages:"
+msgstr ""
+
+#: ../content.php:64
+msgid "Read More"
+msgstr ""
+
+#: ../footer.php:6
+#, php-format
+msgid "Designed by %1$s | Powered by %2$s"
+msgstr ""
+
+#: ../functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:85 ../functions.php:262 ../page-blog.php:43
+msgid "on"
+msgstr ""
+
+#: ../functions.php:88
+msgid "no-subset"
+msgstr ""
+
+#: ../functions.php:111
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../functions.php:225
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../functions.php:242
+msgid "% Comments"
+msgstr ""
+
+#: ../functions.php:244
+msgid "No Comments"
+msgstr ""
+
+#: ../functions.php:259 ../page-blog.php:43
+msgid "by"
+msgstr ""
+
+#: ../functions.php:265 ../page-blog.php:43
+msgid "in"
+msgstr ""
+
+#: ../functions.php:270 ../page-blog.php:43
+msgid "Posted"
+msgstr ""
+
+#: ../functions.php:278
+msgid "Events"
+msgstr ""
+
+#: ../functions.php:279
+msgid "Event"
+msgstr ""
+
+#: ../functions.php:280 ../functions.php:313
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:281
+msgid "Add New Event"
+msgstr ""
+
+#: ../functions.php:282
+msgid "Edit Event"
+msgstr ""
+
+#: ../functions.php:283
+msgid "New Event"
+msgstr ""
+
+#: ../functions.php:284
+msgid "All Events"
+msgstr ""
+
+#: ../functions.php:285
+msgid "View Event"
+msgstr ""
+
+#: ../functions.php:286
+msgid "Search Events"
+msgstr ""
+
+#: ../functions.php:287 ../functions.php:320
+msgid "Nothing found"
+msgstr ""
+
+#: ../functions.php:288 ../functions.php:321
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../functions.php:311
+msgid "Galleries"
+msgstr ""
+
+#: ../functions.php:312
+msgid "Gallery"
+msgstr ""
+
+#: ../functions.php:314
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../functions.php:315
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../functions.php:316
+msgid "New Gallery"
+msgstr ""
+
+#: ../functions.php:317
+msgid "All Galleries"
+msgstr ""
+
+#: ../functions.php:318
+msgid "View Gallery"
+msgstr ""
+
+#: ../functions.php:319
+msgid "Search Galleries"
+msgstr ""
+
+#: ../functions.php:344
+msgid "Event Categories"
+msgstr ""
+
+#: ../functions.php:345 ../functions.php:679 ../functions.php:743
+msgid "Category"
+msgstr ""
+
+#: ../functions.php:346
+msgid "Search Categories"
+msgstr ""
+
+#: ../functions.php:347
+msgid "All Categories"
+msgstr ""
+
+#: ../functions.php:348
+msgid "Parent Category"
+msgstr ""
+
+#: ../functions.php:349
+msgid "Parent Category:"
+msgstr ""
+
+#: ../functions.php:350
+msgid "Edit Category"
+msgstr ""
+
+#: ../functions.php:351
+msgid "Update Category"
+msgstr ""
+
+#: ../functions.php:352
+msgid "Add New Category"
+msgstr ""
+
+#: ../functions.php:353
+msgid "New Category Name"
+msgstr ""
+
+#: ../functions.php:354 ../page-sitemap.php:30
+#: ../epanel/options_harmony.php:379
+msgid "Categories"
+msgstr ""
+
+#: ../functions.php:365
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../functions.php:389
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: ../functions.php:390 ../functions.php:407
+msgid "Custom field updated."
+msgstr ""
+
+#: ../functions.php:391 ../functions.php:408
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../functions.php:392
+msgid "Event updated."
+msgstr ""
+
+#: ../functions.php:394
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr ""
+
+#: ../functions.php:395
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: ../functions.php:396
+msgid "Event saved."
+msgstr ""
+
+#: ../functions.php:397
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: ../functions.php:398
+#, php-format
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event</a>"
+msgstr ""
+
+#: ../functions.php:400 ../functions.php:417
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../functions.php:401
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: ../functions.php:406
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../functions.php:409
+msgid "Gallery updated."
+msgstr ""
+
+#: ../functions.php:411
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../functions.php:412
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../functions.php:413
+msgid "Gallery saved."
+msgstr ""
+
+#: ../functions.php:414
+#, php-format
+msgid "Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions.php:415
+#, php-format
+msgid ""
+"Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions.php:418
+#, php-format
+msgid ""
+"Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions.php:426
+msgid "ET Event Settings"
+msgstr ""
+
+#: ../functions.php:427
+msgid "ET Gallery Settings"
+msgstr ""
+
+#: ../functions.php:428
+msgid "ET Settings"
+msgstr ""
+
+#: ../functions.php:450
+msgid "Event Start Date"
+msgstr ""
+
+#: ../functions.php:454
+msgid "Event Start Time"
+msgstr ""
+
+#: ../functions.php:458
+msgid "Event End Date"
+msgstr ""
+
+#: ../functions.php:462
+msgid "Event End Time"
+msgstr ""
+
+#: ../functions.php:466
+msgid "Event Location"
+msgstr ""
+
+#: ../functions.php:470
+msgid "Event Venue"
+msgstr ""
+
+#: ../functions.php:474
+msgid "Event Price"
+msgstr ""
+
+#: ../functions.php:478
+msgid "Purchase Link"
+msgstr ""
+
+#: ../functions.php:494
+msgid "Gallery Date"
+msgstr ""
+
+#: ../functions.php:510
+msgid "Currently used images"
+msgstr ""
+
+#: ../functions.php:511
+msgid "Please, add some images"
+msgstr ""
+
+#: ../functions.php:520 ../functions.php:538 ../functions.php:800
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:523
+msgid "Save"
+msgstr ""
+
+#: ../functions.php:533
+msgid "Add image(s)"
+msgstr ""
+
+#: ../functions.php:559
+msgid "Hide Sidebar"
+msgstr ""
+
+#: ../functions.php:563
+msgid "Mp3 File URL"
+msgstr ""
+
+#: ../functions.php:567
+msgid "Ogg File Url"
+msgstr ""
+
+#: ../functions.php:571
+msgid "Album Title"
+msgstr ""
+
+#: ../functions.php:676 ../functions.php:741
+msgid "Title"
+msgstr ""
+
+#: ../functions.php:677 ../functions.php:742 ../single-event.php:47
+msgid "Date"
+msgstr ""
+
+#: ../functions.php:678 ../single-event.php:65
+msgid "Location"
+msgstr ""
+
+#: ../functions.php:698
+msgid "Start Date"
+msgstr ""
+
+#: ../functions.php:703
+msgid "End Date"
+msgstr ""
+
+#: ../functions.php:713 ../functions.php:730 ../functions.php:776
+msgid "None"
+msgstr ""
+
+#: ../functions.php:859
+msgid "Link Color"
+msgstr ""
+
+#: ../functions.php:872
+msgid "Main Font Color"
+msgstr ""
+
+#: ../functions.php:885
+msgid "Logo Color"
+msgstr ""
+
+#: ../functions.php:955
+msgid "Product Info"
+msgstr ""
+
+#: ../header.php:65 ../epanel/custom_functions.php:371
+#: ../includes/breadcrumbs.php:6
+msgid "Home"
+msgstr ""
+
+#: ../header.php:79
+msgid "Twitter"
+msgstr ""
+
+#: ../header.php:80
+msgid "Rss"
+msgstr ""
+
+#: ../header.php:81
+msgid "Facebook"
+msgstr ""
+
+#: ../header.php:82
+msgid "SoundCloud"
+msgstr ""
+
+#: ../home.php:25
+msgid "Recent News"
+msgstr ""
+
+#: ../home.php:46
+#, php-format
+msgid "<p class=\"meta-info\">Posted by <a href=\"%1$s\">%2$s</a> on %3$s</p>"
+msgstr ""
+
+#: ../home.php:57
+msgid "More News"
+msgstr ""
+
+#: ../home.php:105
+msgid "More Shows"
+msgstr ""
+
+#: ../home.php:194
+msgid "play"
+msgstr ""
+
+#: ../home.php:195
+msgid "pause"
+msgstr ""
+
+#: ../home.php:212
+msgid "Update Required"
+msgstr ""
+
+#: ../home.php:213
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your <a href=\"http://get.adobe.com/flashplayer/\" target="
+"\"_blank\">Flash plugin</a>."
+msgstr ""
+
+#: ../home.php:236
+msgid "Featured Songs"
+msgstr ""
+
+#: ../home.php:264
+msgid "Awesome Swag"
+msgstr ""
+
+#: ../home.php:291
+msgid "Media Gallery"
+msgstr ""
+
+#: ../home.php:338
+msgid "View More"
+msgstr ""
+
+#: ../image.php:54
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:55
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "read more"
+msgstr ""
+
+#: ../page-contact.php:19
+msgid "Make sure you entered the captcha. "
+msgstr ""
+
+#: ../page-contact.php:22
+msgid "Numbers regenerated."
+msgstr ""
+
+#: ../page-contact.php:23
+msgid "You entered the wrong number in captcha. "
+msgstr ""
+
+#: ../page-contact.php:32
+msgid "Make sure you fill all fields. "
+msgstr ""
+
+#: ../page-contact.php:37
+msgid "Invalid Email. "
+msgstr ""
+
+#: ../page-contact.php:65
+msgid "Thanks for contacting us"
+msgstr ""
+
+#: ../page-contact.php:86 ../page-contact.php:87
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:91 ../page-contact.php:92
+msgid "Email Address"
+msgstr ""
+
+#: ../page-contact.php:96 ../page-contact.php:97
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:104
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:115 ../page-contact.php:116
+msgid "Message"
+msgstr ""
+
+#: ../page-contact.php:121 ../epanel/core_functions.php:195
+#: ../epanel/core_functions.php:359
+msgid "Reset"
+msgstr ""
+
+#: ../page-gallery.php:48 ../page-template-portfolio.php:102
+msgid "Zoom in"
+msgstr ""
+
+#: ../page-gallery.php:49 ../page-template-portfolio.php:103
+msgid "Read more"
+msgstr ""
+
+#: ../page-login.php:27
+msgid "Username"
+msgstr ""
+
+#: ../page-login.php:28
+msgid "Password"
+msgstr ""
+
+#: ../page-search.php:25
+msgid "search this website"
+msgstr ""
+
+#: ../page-search.php:28
+msgid "search this site..."
+msgstr ""
+
+#: ../page-search.php:30
+msgid "Posts"
+msgstr ""
+
+#: ../page-search.php:31 ../page-sitemap.php:25
+#: ../epanel/options_harmony.php:374
+msgid "Pages"
+msgstr ""
+
+#: ../page-search.php:34
+msgid "Select a month"
+msgstr ""
+
+#: ../page-sitemap.php:35
+msgid "Tags"
+msgstr ""
+
+#: ../page-sitemap.php:51
+msgid "Authors"
+msgstr ""
+
+#: ../single-event.php:15
+#, php-format
+msgid "Posted by %1$s in %2$s | %3$s"
+msgstr ""
+
+#: ../single-event.php:43
+msgid "Price"
+msgstr ""
+
+#: ../single-event.php:59
+msgid "Time"
+msgstr ""
+
+#: ../single-event.php:62
+msgid "Venue"
+msgstr ""
+
+#: ../single-event.php:68
+msgid "Purchase Tickets"
+msgstr ""
+
+#: ../single-gallery.php:18
+#, php-format
+msgid "Posted by %1$s in %2$s on %3$s | %4$s"
+msgstr ""
+
+#: ../epanel/core_functions.php:26 ../epanel/core_functions.php:371
+msgid "Saving..."
+msgstr ""
+
+#: ../epanel/core_functions.php:27
+msgid "Options Saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Theme Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:87
+msgid "settings saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:90
+msgid "settings reset."
+msgstr ""
+
+#: ../epanel/core_functions.php:108 ../epanel/options_harmony.php:384
+#: ../epanel/options_harmony.php:533
+msgid "General Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:111
+msgid "Navigation"
+msgstr ""
+
+#: ../epanel/core_functions.php:114
+msgid "Layout Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:117
+msgid "Ad Management"
+msgstr ""
+
+#: ../epanel/core_functions.php:120
+msgid "Colorization"
+msgstr ""
+
+#: ../epanel/core_functions.php:123
+msgid "SEO"
+msgstr ""
+
+#: ../epanel/core_functions.php:126
+msgid "Integration"
+msgstr ""
+
+#: ../epanel/core_functions.php:129
+msgid "Support Docs"
+msgstr ""
+
+#: ../epanel/core_functions.php:196
+msgid "Upload Image"
+msgstr ""
+
+#: ../epanel/core_functions.php:221
+msgid "You don't have pages"
+msgstr ""
+
+#: ../epanel/core_functions.php:344
+msgid "Save changes"
+msgstr ""
+
+#: ../epanel/core_functions.php:355
+msgid ""
+"This will return all of the settings throughout the options page to their "
+"default values. <strong>Are you sure you want to do this?"
+msgstr ""
+
+#: ../epanel/custom_functions.php:751
+msgid "Image doesn't exist"
+msgstr ""
+
+#: ../epanel/custom_functions.php:914
+#, php-format
+msgid ""
+"<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't "
+"forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This message will "
+"disappear once you have clicked the Save button within the <a href=\"%2$s"
+"\">theme's options page</a>.</p></div>"
+msgstr ""
+
+#: ../epanel/custom_functions.php:926
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%1$s\">View version %3$s details</a>. <em>Auto-updates are not "
+"available for this theme. If this is an Elegant Themes theme, then you must "
+"re-download the theme from the member's area and <a href=\"http://www."
+"elegantthemes.com/members-area/documentation.html#update\" target=\"_blank"
+"\">re-install it</a> in order to update it to the latest version.</em>"
+msgstr ""
+
+#: ../epanel/custom_functions.php:930
+msgid ""
+"Auto-updates are not available for this theme. If this is an Elegant Themes "
+"theme, then you must re-download the theme from the member's area and <a "
+"href=\"http://www.elegantthemes.com/members-area/documentation.html#update\" "
+"target=\"_blank\">re-install it</a> in order to update it to the latest "
+"version."
+msgstr ""
+
+#: ../epanel/options_harmony.php:36
+msgid "General"
+msgstr ""
+
+#: ../epanel/options_harmony.php:40
+msgid "Homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:47
+msgid "Logo"
+msgstr ""
+
+#: ../epanel/options_harmony.php:51
+msgid ""
+"If you would like to use your own custom logo image click the Upload Image "
+"button."
+msgstr ""
+
+#: ../epanel/options_harmony.php:54
+msgid "Favicon"
+msgstr ""
+
+#: ../epanel/options_harmony.php:58
+msgid ""
+"If you would like to use your own custom favicon image click the Upload "
+"Image button."
+msgstr ""
+
+#: ../epanel/options_harmony.php:61
+msgid "Header Section Custom Background"
+msgstr ""
+
+#: ../epanel/options_harmony.php:65
+msgid ""
+"If you would like to use your own background image for the Header section "
+"click the Upload Image button."
+msgstr ""
+
+#: ../epanel/options_harmony.php:68
+msgid "Featured Songs Section Custom Background"
+msgstr ""
+
+#: ../epanel/options_harmony.php:72
+msgid ""
+"If you would like to use your own background image for the Featured Songs "
+"section on homepage click the Upload Image button."
+msgstr ""
+
+#: ../epanel/options_harmony.php:75
+msgid "Media Gallery Section Custom Background"
+msgstr ""
+
+#: ../epanel/options_harmony.php:79
+msgid ""
+"If you would like to use your own background image for the Media Gallery "
+"section on homepage click the Upload Image button."
+msgstr ""
+
+#: ../epanel/options_harmony.php:82
+msgid "Blog Style post format"
+msgstr ""
+
+#: ../epanel/options_harmony.php:86
+msgid ""
+"By default the theme truncates your posts on index/homepages automatically "
+"to create post previews. If you would rather show your posts in full on "
+"index pages like a traditional blog then you can activate this feature."
+msgstr ""
+
+#: ../epanel/options_harmony.php:89
+msgid "Grab the first post image"
+msgstr ""
+
+#: ../epanel/options_harmony.php:93
+msgid ""
+"By default thumbnail images are created using custom fields. However, if you "
+"would rather use the images that are already in your post for your thumbnail "
+"(and bypass using custom fields) you can activate this option. Once "
+"activcated thumbnail images will be generated automatically using the first "
+"image in your post. The image must be hosted on your own server."
+msgstr ""
+
+#: ../epanel/options_harmony.php:98
+msgid "Show Twitter Icon"
+msgstr ""
+
+#: ../epanel/options_harmony.php:102
+msgid ""
+"Here you can choose to display the Twitter Icon on your site. You also need "
+"to set Twitter Profile Url option below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:105
+msgid "Show RSS Icon"
+msgstr ""
+
+#: ../epanel/options_harmony.php:109
+msgid "Here you can choose to display the RSS Icon on your site."
+msgstr ""
+
+#: ../epanel/options_harmony.php:114
+msgid "Show Facebook Icon"
+msgstr ""
+
+#: ../epanel/options_harmony.php:118
+msgid ""
+"Here you can choose to display the Facebook Icon on your site. You also need "
+"to set Facebook Profile Url option below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:121
+msgid "Show SoundCloud Icon"
+msgstr ""
+
+#: ../epanel/options_harmony.php:125
+msgid ""
+"Here you can choose to display the SoundCloud Icon on your site. You also "
+"need to set SoundCloud Profile Url option below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:130
+msgid "Twitter Profile Url"
+msgstr ""
+
+#: ../epanel/options_harmony.php:134
+msgid "Enter the URL of your Twitter Profile."
+msgstr ""
+
+#: ../epanel/options_harmony.php:137
+msgid "RSS Icon Url"
+msgstr ""
+
+#: ../epanel/options_harmony.php:141
+msgid "Enter the URL of your RSS feed."
+msgstr ""
+
+#: ../epanel/options_harmony.php:144
+msgid "Facebook Profile Url"
+msgstr ""
+
+#: ../epanel/options_harmony.php:148
+msgid "Enter the URL of your Facebook Profile."
+msgstr ""
+
+#: ../epanel/options_harmony.php:151
+msgid "SoundCloud Profile Url"
+msgstr ""
+
+#: ../epanel/options_harmony.php:155
+msgid "Enter the URL of your SoundCloud Profile. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:158
+msgid "Display shop pages as full width"
+msgstr ""
+
+#: ../epanel/options_harmony.php:162
+msgid ""
+"Here you can enable the option to display shop index pages as full width."
+msgstr ""
+
+#: ../epanel/options_harmony.php:165
+msgid "Display product page as full width"
+msgstr ""
+
+#: ../epanel/options_harmony.php:169
+msgid "Here you can enable the option to display product page as full width."
+msgstr ""
+
+#: ../epanel/options_harmony.php:174
+msgid "Number of Posts displayed on Category page"
+msgstr ""
+
+#: ../epanel/options_harmony.php:178
+msgid ""
+"Here you can designate how many recent articles are displayed on the "
+"Category page. This option works independently from the Settings > Reading "
+"options in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:181
+msgid "Number of Posts displayed on Archive pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:185
+msgid ""
+"Here you can designate how many recent articles are displayed on the Archive "
+"pages. This option works independently from the Settings > Reading options "
+"in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:188
+msgid "Number of Posts displayed on Search pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:192
+msgid ""
+"Here you can designate how many recent articles are displayed on the Search "
+"results pages. This option works independently from the Settings > Reading "
+"options in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:195
+msgid "Number of Posts displayed on Tag pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:199
+msgid ""
+"Here you can designate how many recent articles are displayed on the Tag "
+"pages. This option works independently from the Settings > Reading options "
+"in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:202
+msgid "Date format"
+msgstr ""
+
+#: ../epanel/options_harmony.php:206
+msgid ""
+"This option allows you to change how your dates are displayed. For more "
+"information please refer to the WordPress codex here:<a href='http://codex."
+"wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatting Date and "
+"Time</a>"
+msgstr ""
+
+#: ../epanel/options_harmony.php:211
+msgid "Use excerpts when defined"
+msgstr ""
+
+#: ../epanel/options_harmony.php:215
+msgid "This will enable the use of excerpts in posts or pages."
+msgstr ""
+
+#: ../epanel/options_harmony.php:218
+msgid "Responsive shortcodes"
+msgstr ""
+
+#: ../epanel/options_harmony.php:222
+msgid "Enable this option to make shortcodes respond to various screen sizes"
+msgstr ""
+
+#: ../epanel/options_harmony.php:233
+msgid "Display Recent News Section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:237
+msgid "Here you can choose to display the Recent News Section on the homepage."
+msgstr ""
+
+#: ../epanel/options_harmony.php:240
+msgid "Display Upcoming Shows Section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:244
+msgid ""
+"Here you can choose to display the Upcoming Shows Section on the homepage."
+msgstr ""
+
+#: ../epanel/options_harmony.php:249
+msgid "Display Featured Songs Section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:253
+msgid ""
+"Here you can choose to display the Featured Songs Section on the homepage."
+msgstr ""
+
+#: ../epanel/options_harmony.php:256
+msgid "Display Featured Products Section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:260
+msgid "Here you can choose to display the Featured Products on the homepage."
+msgstr ""
+
+#: ../epanel/options_harmony.php:265
+msgid "Display Media Gallery Section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:269
+msgid ""
+"Here you can choose to display the Media Gallery Section on the homepage."
+msgstr ""
+
+#: ../epanel/options_harmony.php:274
+msgid "More news link url ( in the Recent News section )"
+msgstr ""
+
+#: ../epanel/options_harmony.php:278
+msgid ""
+"Here you can define the 'read more' link url in the Recent News section on "
+"homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:281
+msgid "Number of Recent Posts displayed on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:285
+msgid ""
+"Here you can designate how many recent articles are displayed on the "
+"homepage. This option works independently from the Settings > Reading "
+"options in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:288
+msgid "Number of Upcoming Shows"
+msgstr ""
+
+#: ../epanel/options_harmony.php:292
+msgid "Here you can define the number of Upcoming Shows on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:295
+msgid "Number of Featured Songs"
+msgstr ""
+
+#: ../epanel/options_harmony.php:299
+msgid "Here you can define the number of Featured Songs on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:302
+msgid "Number of Featured Products"
+msgstr ""
+
+#: ../epanel/options_harmony.php:306
+msgid "Here you can define the number of Featured Products on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:309
+msgid "Number of Media Gallery items"
+msgstr ""
+
+#: ../epanel/options_harmony.php:313
+msgid "Here you can define the number of Media Gallery items on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:316
+msgid "Recent News Section custom title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:320
+msgid "Here you can define Recent News section title on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:323
+msgid "Upcoming Shows Section custom title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:327
+msgid "Here you can define Upcoming Shows Section custom title on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:330
+msgid "Featured Songs Section custom title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:334
+msgid "Here you can define Featured Songs Section custom title on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:337
+msgid "Featured Products Section custom title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:341
+msgid "Here you can define Featured Products Section custom title on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:344
+msgid "Media Gallery Section custom title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:348
+msgid "Here you can define Media Gallery Section custom title on homepage"
+msgstr ""
+
+#: ../epanel/options_harmony.php:351
+msgid "Exclude categories from homepage recent posts"
+msgstr ""
+
+#: ../epanel/options_harmony.php:355
+msgid ""
+"By default the homepage displays a list of all of your most recent posts. "
+"However, if you would like to exlcude certain category from the list you can "
+"do so here. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:392
+msgid "Exclude pages from the navigation bar"
+msgstr ""
+
+#: ../epanel/options_harmony.php:396
+msgid ""
+"Here you can choose to remove certain pages from the navigation menu. All "
+"pages marked with an X will not appear in your navigation bar. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:400 ../epanel/options_harmony.php:454
+msgid "Show dropdown menus"
+msgstr ""
+
+#: ../epanel/options_harmony.php:404
+msgid ""
+"If you would like to remove the dropdown menus from the pages navigation bar "
+"disable this feature."
+msgstr ""
+
+#: ../epanel/options_harmony.php:407
+msgid "Display Home link"
+msgstr ""
+
+#: ../epanel/options_harmony.php:411
+msgid ""
+"By default the theme creates a Home link that, when clicked, leads back to "
+"your blog's homepage. If, however, you are using a static homepage and have "
+"already created a page called Home to use, this will result in a duplicate "
+"link. In this case you should disable this feature to remove the link."
+msgstr ""
+
+#: ../epanel/options_harmony.php:416
+msgid "Sort Pages Links"
+msgstr ""
+
+#: ../epanel/options_harmony.php:420
+msgid "Here you can choose to sort your pages links."
+msgstr ""
+
+#: ../epanel/options_harmony.php:423
+msgid "Order Pages Links by Ascending/Descending"
+msgstr ""
+
+#: ../epanel/options_harmony.php:427
+msgid ""
+"Here you can choose to reverse the order that your pages links are "
+"displayed. You can choose between ascending and descending."
+msgstr ""
+
+#: ../epanel/options_harmony.php:430 ../epanel/options_harmony.php:470
+msgid "Number of dropdown tiers shown"
+msgstr ""
+
+#: ../epanel/options_harmony.php:434 ../epanel/options_harmony.php:474
+msgid ""
+"This options allows you to control how many teirs your pages dropdown menu "
+"has. Increasing the number allows for additional menu items to be shown."
+msgstr ""
+
+#: ../epanel/options_harmony.php:446
+msgid "Exclude categories from the navigation bar"
+msgstr ""
+
+#: ../epanel/options_harmony.php:450
+msgid ""
+"Here you can choose to remove certain categories from the navigation menu. "
+"All categories marked with an X will not appear in your navigation bar. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:458
+msgid ""
+"If you would like to remove the dropdown menus from the categories "
+"navigation bar disable this feature."
+msgstr ""
+
+#: ../epanel/options_harmony.php:461
+msgid "Hide empty categories"
+msgstr ""
+
+#: ../epanel/options_harmony.php:465
+msgid ""
+"If you would like categories to be displayed in your navigationbar that "
+"don't have any posts in them then disable this option. By default empty "
+"categories are hidden"
+msgstr ""
+
+#: ../epanel/options_harmony.php:479
+msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
+msgstr ""
+
+#: ../epanel/options_harmony.php:483
+msgid ""
+"By default pages are sorted by name. However if you would rather have them "
+"sorted by ID you can adjust this setting."
+msgstr ""
+
+#: ../epanel/options_harmony.php:486
+msgid "Order Category Links by Ascending/Descending"
+msgstr ""
+
+#: ../epanel/options_harmony.php:490
+msgid ""
+"Here you can choose to reverse the order that your categories links are "
+"displayed. You can choose between ascending and descending."
+msgstr ""
+
+#: ../epanel/options_harmony.php:499
+msgid "Disable top tier dropdown menu links"
+msgstr ""
+
+#: ../epanel/options_harmony.php:503
+msgid ""
+"In some cases users will want to create parent categories or links as "
+"placeholders to hold a list of child links or categories. In this case it is "
+"not desirable to have the parent links lead anywhere, but instead merely "
+"serve an organizational function. Enabling this options will remove the "
+"links from all parent pages/categories so that they don't lead anywhere when "
+"clicked."
+msgstr ""
+
+#: ../epanel/options_harmony.php:523
+msgid "Single Post Layout"
+msgstr ""
+
+#: ../epanel/options_harmony.php:528
+msgid "Single Page Layout"
+msgstr ""
+
+#: ../epanel/options_harmony.php:541
+msgid "Choose which items to display in the postinfo section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:545
+msgid ""
+"Here you can choose which items appear in the postinfo section on single "
+"post pages. This is the area, usually below the post title, which displays "
+"basic information about your post. The highlighted itmes shown below will "
+"appear. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:548
+msgid "Place Thumbs on Posts"
+msgstr ""
+
+#: ../epanel/options_harmony.php:552
+msgid ""
+"By default thumbnails are placed at the beginning of your post on single "
+"post pages. If you would like to remove this initial thumbnail image to "
+"avoid repetition simply disable this option. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:555
+msgid "Show comments on posts"
+msgstr ""
+
+#: ../epanel/options_harmony.php:559
+msgid ""
+"You can disable this option if you want to remove the comments and comment "
+"form from single post pages. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:570
+msgid "Place Thumbs on Pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:574
+msgid ""
+"By default thumbnails are not placed on pages (they are only used on posts). "
+"However, if you want to use thumbnails on posts you can! Just enable this "
+"option. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:577
+msgid "Show comments on pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:581
+msgid ""
+"By default comments are not placed on pages, however, if you would like to "
+"allow people to comment on your pages simply enable this option. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:592
+msgid "Post info section"
+msgstr ""
+
+#: ../epanel/options_harmony.php:596
+msgid ""
+"Here you can choose which items appear in the postinfo section on pages. "
+"This is the area, usually below the post title, which displays basic "
+"information about your post. The highlighted itmes shown below will appear. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:601
+msgid "Show Thumbs on Index pages"
+msgstr ""
+
+#: ../epanel/options_harmony.php:605
+msgid "Enable this option to show thumbnails on Index Pages."
+msgstr ""
+
+#: ../epanel/options_harmony.php:624
+msgid "Homepage SEO"
+msgstr ""
+
+#: ../epanel/options_harmony.php:629
+msgid "Single Post Page SEO"
+msgstr ""
+
+#: ../epanel/options_harmony.php:634
+msgid "Index Page SEO"
+msgstr ""
+
+#: ../epanel/options_harmony.php:642
+msgid " Enable custom title "
+msgstr ""
+
+#: ../epanel/options_harmony.php:646
+msgid ""
+"By default the theme uses a combination of your blog name and your blog "
+"description, as defined when you created your blog, to create your homepage "
+"titles. However if you want to create a custom title then simply enable this "
+"option and fill in the custom title field below. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:649
+msgid " Enable meta description"
+msgstr ""
+
+#: ../epanel/options_harmony.php:653
+msgid ""
+"By default the theme uses your blog description, as defined when you created "
+"your blog, to fill in the meta description field. If you would like to use a "
+"different description then enable this option and fill in the custom "
+"description field below. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:656
+msgid " Enable meta keywords"
+msgstr ""
+
+#: ../epanel/options_harmony.php:660
+msgid ""
+"By default the theme does not add keywords to your header. Most search "
+"engines don't use keywords to rank your site anymore, but some people define "
+"them anyway just in case. If you want to add meta keywords to your header "
+"then enable this option and fill in the custom keywords field below. "
+msgstr ""
+
+#: ../epanel/options_harmony.php:663 ../epanel/options_harmony.php:788
+msgid " Enable canonical URL's"
+msgstr ""
+
+#: ../epanel/options_harmony.php:667
+msgid ""
+"Canonicalization helps to prevent the indexing of duplicate content by "
+"search engines, and as a result, may help avoid duplicate content penalties "
+"and pagerank degradation. Some pages may have different URLs all leading to "
+"the same place. For example domain.com, domain.com/index.html, and www."
+"domain.com are all different URLs leading to your homepage. From a search "
+"engine's perspective these duplicate URLs, which also occur often due to "
+"custom permalinks, may be treaded individually instead of as a single "
+"destination. Defining a canonical URL tells the search engine which URL you "
+"would like to use officially. The theme bases its canonical URLs off your "
+"permalinks and the domain name defined in the settings tab of wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:672
+msgid "Homepage custom title (if enabled)"
+msgstr ""
+
+#: ../epanel/options_harmony.php:676
+msgid ""
+"If you have enabled custom titles you can add your custom title here. "
+"Whatever you type here will be placed between the < title >< /title > tags "
+"in header.php"
+msgstr ""
+
+#: ../epanel/options_harmony.php:679
+msgid "Homepage meta description (if enabled)"
+msgstr ""
+
+#: ../epanel/options_harmony.php:683
+msgid ""
+"If you have enabled meta descriptions you can add your custom description "
+"here."
+msgstr ""
+
+#: ../epanel/options_harmony.php:686
+msgid "Homepage meta keywords (if enabled)"
+msgstr ""
+
+#: ../epanel/options_harmony.php:690
+msgid ""
+"If you have enabled meta keywords you can add your custom keywords here. "
+"Keywords should be separated by comas. For example: wordpress,themes,"
+"templates,elegant"
+msgstr ""
+
+#: ../epanel/options_harmony.php:693 ../epanel/options_harmony.php:767
+msgid "If custom titles are disabled, choose autogeneration method"
+msgstr ""
+
+#: ../epanel/options_harmony.php:698
+msgid ""
+"If you are not using cutsom post titles you can still have control over how "
+"your titles are generated. Here you can choose which order you would like "
+"your post title and blog name to be displayed, or you can remove the blog "
+"name from the title completely."
+msgstr ""
+
+#: ../epanel/options_harmony.php:701 ../epanel/options_harmony.php:775
+#: ../epanel/options_harmony.php:812
+msgid "Define a character to separate BlogName and Post title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:705 ../epanel/options_harmony.php:779
+msgid ""
+"Here you can change which character separates your blog title and post name "
+"when using autogenerated post titles. Common values are | or -"
+msgstr ""
+
+#: ../epanel/options_harmony.php:714
+msgid "Enable custom titles"
+msgstr ""
+
+#: ../epanel/options_harmony.php:718
+msgid ""
+"By default the theme creates post titles based on the title of your post and "
+"your blog name. If you would like to make your meta title different than "
+"your actual post title you can define a custom title for each post using "
+"custom fields. This option must be enabled for custom titles to work, and "
+"you must choose a custom field name for your title below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:721
+msgid "Enable custom description"
+msgstr ""
+
+#: ../epanel/options_harmony.php:725
+msgid ""
+"If you would like to add a meta description to your post you can do so using "
+"custom fields. This option must be enabled for descriptions to be displayed "
+"on post pages. You can add your meta description using custom fields based "
+"off the custom field name you define below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:730
+msgid "Enable custom keywords"
+msgstr ""
+
+#: ../epanel/options_harmony.php:734
+msgid ""
+"If you would like to add meta keywords to your post you can do so using "
+"custom fields. This option must be enabled for keywords to be displayed on "
+"post pages. You can add your meta keywords using custom fields based off the "
+"custom field name you define below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:737
+msgid "Enable canonical URL's"
+msgstr ""
+
+#: ../epanel/options_harmony.php:741 ../epanel/options_harmony.php:792
+msgid ""
+"Canonicalization helps to prevent the indexing of duplicate content by "
+"search engines, and as a result, may help avoid duplicate content penalties "
+"and pagerank degradation. Some pages may have different URL's all leading to "
+"the same place. For example domain.com, domain.com/index.html, and www."
+"domain.com are all different URLs leading to your homepage. From a search "
+"engine's perspective these duplicate URLs, which also occur often due to "
+"custom permalinks, may be treaded individually instead of as a single "
+"destination. Defining a canonical URL tells the search engine which URL you "
+"would like to use officially. The theme bases its canonical URLs off your "
+"permalinks and the domain name defined in the settings tab of wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:746
+msgid "Custom field Name to be used for title"
+msgstr ""
+
+#: ../epanel/options_harmony.php:750
+msgid ""
+"When you define your title using custom fields you should use this value for "
+"the custom field Name. The Value of your custom field should be the custom "
+"title you would like to use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:753
+msgid "Custom field Name to be used for description"
+msgstr ""
+
+#: ../epanel/options_harmony.php:757
+msgid ""
+"When you define your meta description using custom fields you should use "
+"this value for the custom field Name. The Value of your custom field should "
+"be the custom description you would like to use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:760
+msgid "Custom field Name to be used for keywords"
+msgstr ""
+
+#: ../epanel/options_harmony.php:764
+msgid ""
+"When you define your keywords using custom fields you should use this value "
+"for the custom field Name. The Value of your custom field should be the meta "
+"keywords you would like to use, separated by comas."
+msgstr ""
+
+#: ../epanel/options_harmony.php:772
+msgid ""
+"If you are not using cutsom post titles you can still have control over hw "
+"your titles are generated. Here you can choose which order you would like "
+"your post title and blog name to be displayed, or you can remove the blog "
+"name from the title completely."
+msgstr ""
+
+#: ../epanel/options_harmony.php:795
+msgid "Enable meta descriptions"
+msgstr ""
+
+#: ../epanel/options_harmony.php:799
+msgid ""
+"Check this box if you want to display meta descriptions on category/archive "
+"pages. The description is based off the category description you choose when "
+"creating/edit your category in wp-admin."
+msgstr ""
+
+#: ../epanel/options_harmony.php:804
+msgid "Choose title autogeneration method"
+msgstr ""
+
+#: ../epanel/options_harmony.php:809
+msgid ""
+"Here you can choose how your titles on index pages are generated. You can "
+"change which order your blog name and index title are displayed, or you can "
+"remove the blog name from the title completely."
+msgstr ""
+
+#: ../epanel/options_harmony.php:816 ../epanel/options_harmony.php:966
+#: ../epanel/options_harmony.php:973
+msgid ""
+"Here you can change which character separates your blog title and index page "
+"name when using autogenerated post titles. Common values are | or -"
+msgstr ""
+
+#: ../epanel/options_harmony.php:836
+msgid "Code Integration"
+msgstr ""
+
+#: ../epanel/options_harmony.php:844
+msgid "Enable header code"
+msgstr ""
+
+#: ../epanel/options_harmony.php:848
+msgid ""
+"Disabling this option will remove the header code below from your blog. This "
+"allows you to remove the code while saving it for later use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:851
+msgid "Enable body code"
+msgstr ""
+
+#: ../epanel/options_harmony.php:855
+msgid ""
+"Disabling this option will remove the body code below from your blog. This "
+"allows you to remove the code while saving it for later use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:860
+msgid "Enable single top code"
+msgstr ""
+
+#: ../epanel/options_harmony.php:864
+msgid ""
+"Disabling this option will remove the single top code below from your blog. "
+"This allows you to remove the code while saving it for later use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:867
+msgid "Enable single bottom code"
+msgstr ""
+
+#: ../epanel/options_harmony.php:871
+msgid ""
+"Disabling this option will remove the single bottom code below from your "
+"blog. This allows you to remove the code while saving it for later use."
+msgstr ""
+
+#: ../epanel/options_harmony.php:876
+msgid "Add code to the < head > of your blog"
+msgstr ""
+
+#: ../epanel/options_harmony.php:880
+msgid ""
+"Any code you place here will appear in the head section of every page of "
+"your blog. This is useful when you need to add javascript or css to all "
+"pages."
+msgstr ""
+
+#: ../epanel/options_harmony.php:883
+msgid ""
+"Add code to the < body > (good for tracking codes such as google analytics)"
+msgstr ""
+
+#: ../epanel/options_harmony.php:887
+msgid ""
+"Any code you place here will appear in body section of all pages of your "
+"blog. This is usefull if you need to input a tracking pixel for a state "
+"counter such as Google Analytics."
+msgstr ""
+
+#: ../epanel/options_harmony.php:890
+msgid "Add code to the top of your posts"
+msgstr ""
+
+#: ../epanel/options_harmony.php:894 ../epanel/options_harmony.php:901
+msgid ""
+"Any code you place here will be placed at the top of all single posts. This "
+"is useful if you are looking to integrating things such as social "
+"bookmarking links."
+msgstr ""
+
+#: ../epanel/options_harmony.php:897
+msgid "Add code to the bottom of your posts, before the comments"
+msgstr ""
+
+#: ../epanel/options_harmony.php:919
+msgid "Documentation"
+msgstr ""
+
+#: ../epanel/options_harmony.php:945
+msgid "Manage Un-widgetized Advertisements"
+msgstr ""
+
+#: ../epanel/options_harmony.php:953
+msgid "Enable Single Post 468x60 banner"
+msgstr ""
+
+#: ../epanel/options_harmony.php:957
+msgid ""
+"Enabling this option will display a 468x60 banner ad on the bottom of your "
+"post pages below the single post content. If enabled you must fill in the "
+"banner image and destination url below."
+msgstr ""
+
+#: ../epanel/options_harmony.php:962
+msgid "Input 468x60 advertisement banner image"
+msgstr ""
+
+#: ../epanel/options_harmony.php:969
+msgid "Input 468x60 advertisement destination url"
+msgstr ""
+
+#: ../epanel/options_harmony.php:976
+msgid "Input 468x60 adsense code"
+msgstr ""
+
+#: ../epanel/options_harmony.php:980
+msgid "Place your adsense code here."
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:35
+msgid "ET Page Template Settings"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:62
+msgid ""
+"Additional settings appear here, when one of ET page templates is selected "
+"( Page Attributes -> Template )"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:67
+msgid "Full Width Page"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:72
+msgid "Regenerate captcha numbers"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:76
+msgid "Email To:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:82
+msgid "Blog Style mode"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:87
+msgid "Hide Auto Thumbnail"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:92
+msgid "Show Titles"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:97
+msgid "Show Descriptions"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:102
+msgid "Detect Portrait Images"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:106
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:107
+msgid "Small"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:108
+msgid "Medium"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:109
+msgid "Large"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:113
+#: ../epanel/page_templates/page_templates.php:118
+msgid "Number of posts per page:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:123
+msgid "Select blog categories:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:142
+msgid "Select gallery categories:"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:15
+msgid "Previous"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:15
+msgid "Next"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:300
+msgid "Member Login"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:303
+msgid "Username: "
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:304
+msgid "Password: "
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:305
+msgid "Login"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:341
+msgid "Add a Tooltip Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:363
+msgid "Click here to learn more"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:971
+msgid "Caption"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:972
+msgid "Caption goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:973
+msgid "Caption title goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:977
+msgid "State"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:979
+msgid "Select between expanded and closed state"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:984
+#: ../epanel/shortcodes/shortcodes.php:1000
+#: ../epanel/shortcodes/shortcodes.php:1029
+#: ../epanel/shortcodes/shortcodes.php:1109
+msgid "Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:985
+#: ../epanel/shortcodes/shortcodes.php:1001
+#: ../epanel/shortcodes/shortcodes.php:1087
+#: ../epanel/shortcodes/shortcodes.php:1110
+msgid "Content goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:986
+#: ../epanel/shortcodes/shortcodes.php:1002
+#: ../epanel/shortcodes/shortcodes.php:1031
+msgid "Content text or html"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:993
+#: ../epanel/shortcodes/shortcodes.php:1015
+msgid "Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:995
+msgid "Type of the box"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1009
+msgid "Link"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1011
+msgid "URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1017
+msgid "Choose button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1022
+msgid "Color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1024
+msgid "Choose button color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1030
+msgid "Link text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1035
+msgid "Icon"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1037
+msgid "Used for icon button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1042
+msgid "Open link in new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1044
+msgid "Select yes if the link should be opened in a new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1052
+msgid "Slider Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1054
+msgid "Select Slider Type here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1059
+msgid "Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1061
+msgid "Select Animation Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1066
+msgid "Auto"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1068
+msgid "Choose yes if you want for automatic slider animation"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1073
+msgid "Auto Speed"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1075
+msgid "Automattic slider speed (works only if Auto is set to yes)"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1079
+msgid "Tab Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1086
+msgid "Tab Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1088
+msgid "Paste image url here, if you chose \"images\" slider type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1096
+msgid "Image Url"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1098
+msgid "Author Image URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1102
+msgid "Use resizing"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1179
+msgid "+ Add One More Tab"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1329
+msgid "Image Height"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1330
+msgid "Image Width"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:9
+msgid "Posts Tagged "
+msgstr ""
+
+#: ../includes/breadcrumbs.php:11 ../includes/breadcrumbs.php:13
+#: ../includes/breadcrumbs.php:15
+msgid "Posts made in"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:17
+msgid "Search results for"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:49
+msgid "Posts by "
+msgstr ""
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr ""
+
+#: ../includes/no-results.php:4
+msgid ""
+"The page you requested could not be found. Try refining your search, or use "
+"the navigation above to locate the post."
+msgstr ""
+
+#: ../includes/functions/comments.php:15
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../includes/functions/comments.php:18
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/functions/comments.php:23
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/functions/comments.php:31
+msgid "Reply"
+msgstr ""
+
+#: ../includes/functions/installation.php:1
+msgid "Read Harmony Documentation"
+msgstr ""

@@ -1,0 +1,3 @@
+#et_settings_meta_box label { font-weight: bold; min-width: 100px; display: inline-block; }
+.et_event_date, .et_event_time { width: 125px; }
+#et_audio_post_settings { display: none; }
