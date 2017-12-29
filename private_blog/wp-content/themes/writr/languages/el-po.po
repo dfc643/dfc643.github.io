@@ -1,0 +1,370 @@
+# Translation of Writr in Greek (Polytonic)
+# This file is distributed under the same license as the Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-02 05:47:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Writr\n"
+
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ἀναζητῆστε τό:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ ψάχνετε. Ἴσως βοηθήσει μιὰ ἀναζήτηση."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτε δὲν ταιριάζει μὲ τὶς λέξεις ἀναζήτησης. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις-κλειδιά."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ἕτοιμος/-η γιὰ τὸ πρῶτο σας ἄρθρο; <a href=\"%1$s\">Ξεκινῆστε ἀπὸ δῶ</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Οὑδὲν εὑρέθη!"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "σχόλια"
+
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Ἐτικέττες"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Δεῖτε ὅλες τὶς καταχωρίσεις τοῦ/τῆς %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Ἔγραψε"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s στὶς %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Τὸ σχόλιό σας περιμένει ἔλεγχο γιὰ ἐνδεχόμενες ἀκρότητες."
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> Παλαιότερα ἄρθρα"
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "Νεώτερα ἄρθρα  <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Αὐτόματη εἰδοποίηση σύνδεσης:"
+
+#: inc/template-tags.php:38
+msgid "<span class=\"genericon genericon-leftarrow\"></span> %title"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Κόκκινο"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Μώβ"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Γκρίζο"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Πράσινο"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Τουρκουάζ"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Γαλάζιο"
+
+#: inc/customizer.php:43
+msgid "Wider Content Area"
+msgstr "Φαρδύτερη περιοχὴ περιεχομένου"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Συνδυασμὸς χρωμάτων"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr ""
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr ""
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Ἐπιλογές θέματος ἐμφάνισης"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Σχόλια καὶ εἰδοποιήσεις συνδέσεων εἶναι ἐπὶ τοῦ παρόντος κλειστά."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Οἱ εἰδοποιήσεις συνδέσεως ἔχουν κλείσει, ἀλλὰ μπορεῖτε νὰ <a class=\"comment-link\" href=\"#respond\" title=\"Ἀναρτῆστε σχόλιο\">ἀναρτήσετε σχόλιο</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Τὰ σχόλια ἔχουν κλείσει ἀλλὰ μπορεῖτε νὰ ἀφήσετε μιὰ εἰδοποίηση σύνδεσης: <a class=\"trackback-link\" href=\"%s\" title=\"URL γιὰ εἰδοποίηση σύνδεσης πρὸς τὸ σχόλιό σας\" rel=\"trackback\">URL γιὰ εἰδοποίηση σύνδεσης</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Σχολιάστε\">Σχολιάστε</a> ἢ ἀφῆστε εἰδοποίηση σύνδεσης: <a class=\"trackback-link\" href=\"%s\" title=\"Ἡ URL γιὰ εἰδοποίηση σύνδεσης πρὸς τὸ ἄρθρο σας\" rel=\"trackback\">URL γιὰ εἰδοποίηση σύνδεσης</a>. "
+
+#: image.php:54
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "φλέρτ"
+
+#: header.php:42
+msgid "Skip to content"
+msgstr "Πηγαίνετε στὸ περιεχόμενο τοῦ ἱστολογίου"
+
+#: functions.php:121
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:41
+msgid "Menu"
+msgstr "Μενού"
+
+#: functions.php:105 sidebar.php:10
+msgid "Sidebar"
+msgstr "Πλαϊνὴ στήλη"
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Μιὰ πλατφόρμα σημασιολογικῶν προσωπικῶν ἐκδόσεων"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Συνεχίστε νὰ διαβάζετε"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "πρωτοσέλιδο"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr ""
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Μόνιμος σύνδεσμος πρὸς %s"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Ὅλα τὰ ἄρθρα τοῦ %s"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Σελίδα"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Νεότερα σχόλια"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μιὰ σκέψη πάνω στὸ &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις πάνω στὸ &ldquo;%2$s&rdquo;"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Συζητήσεις"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Ἀρχεῖα"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Κατάσταση ὰναρτήσεων"
+
+#: archive.php:66
+msgid "Audios"
+msgstr ""
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Συλλογὲς εἰκόνων"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Βίντεο"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Εἰκόνες"
+
+#: archive.php:48
+msgid "Asides"
+msgstr ""
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Ἔτος: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Μῆνας: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Ἡμέρα: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Συγγραφέας: %s"
+
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Προσπαθῆστε νὰ ψάξετε στὰ μηνιαῖα ἀρχεῖα. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Οἱ πιὸ χρησιμοποιημένες κατηγορίες"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Στὴν τοποθεσία αὐτὴν δὲν βρέθηκε τίποτε. Ἂν θέλετε δοκιμάστε κάποιον ἀπὸ τοὺς κατωτέρω συνδέσμους ἢ μιὰν ἀναζήτηση."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ἡ σελίδα αὐτὴ δὲν βρέθηκε."

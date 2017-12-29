@@ -1,0 +1,10 @@
+@import url('editor-style.css');
+
+
+/* =Theme
+----------------------------------------------- */
+
+/* Body */
+body.mce-content-body {
+	max-width: 720px;
+}

@@ -1,0 +1,100 @@
+/*
+* 仿 QQ 登陆对话框
+*/
+
+body {
+	background-color:#EAEAEA;
+	background:url('../images/background.jpg');
+}
+
+a:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#footer {
+	width:100%;
+	text-align:center;
+	position:absolute;
+	margin-top: 150px;
+	color: #FFF;
+	top: 50%;
+}
+
+#qqloginbox {
+	position:absolute;
+	width:430px;
+	height:330px;
+	background:url('../images/mainbox.png');
+	top:50%;
+	left:50%;
+	margin-top:-205px;
+	margin-left:-215px;
+	box-shadow:0 0 10px;
+}
+
+#qqloginbox .topanime {
+	width:430px;
+	height:181px;
+	background:url('../images/anime.gif');
+	background-size:100% 100%;
+	overflow:hidden;
+}
+
+#qqloginbox .topanime .bt-opt,
+#qqloginbox .topanime .bt-min,
+#qqloginbox .topanime .bt-close {
+	width:30px;
+	height:30px;
+	float:right;
+	margin-top:-2px;
+}
+#qqloginbox .topanime .bt-opt:hover{background:url('../images/bt-opt.png');}
+#qqloginbox .topanime .bt-min:hover{background:url('../images/bt-min.png');}
+#qqloginbox .topanime .bt-close:hover{background:url('../images/bt-close.png');}
+
+#qqloginbox .userinfo input[type='text'] {
+	border:0;
+	width:169px;
+}
+#qqloginbox .userinfo input[name='qq'] {
+	position:relative;
+	top:17px;
+	left:137px;
+}
+#qqloginbox .userinfo input[name='sid'] {
+	position:relative;
+	top: 46px;
+	left: -37px;
+}
+
+#qqloginbox .bottom input[type='submit'] {
+	position:relative;
+	width:194px;
+	height:31px;
+	border:0;
+	background:url('../images/bt-login.png');
+	top: 84px;
+	left: 134px;
+}
+#qqloginbox .bottom input[type='submit']:hover {
+	background:url('../images/bt-login-2.png');
+}
+
+#qqloginbox .other a[data-target='#getsidway'] {
+	position:absolute;
+	top: 232px;
+	left: 340px;
+}
+#qqloginbox .other a[data-target='#getstatus'] {
+	position:absolute;
+	top: 202px;
+	left: 340px;
+}
+#qqloginbox .other .tongji {
+	position: absolute;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.35);
+	top: 164px;
+	left: 165px;
+}

@@ -1,0 +1,417 @@
+# Translation of WordPress.com - Themes - Writr in Romanian
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "Culoare #2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "Culoare #1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Fundal"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Detalii"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "Organizator"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "Loc de întâlnire"
+
+#: inc/template-tags.php:279
+msgid "Event date and time"
+msgstr "Dată și oră eveniment"
+
+#: eventbrite/eventbrite-index.php:40 eventbrite/eventbrite-single.php:27
+msgid "Eventbrite event"
+msgstr "Eveniment eventbrite"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr este o temă de tumblelog minimalistă, orientată spre conținut, perfectă pentru blogul personal. Vine cu un pachet cu 6 scheme diferite de culoare: turcoaz (implicit), albastru, verde, gri, violet și roșu. Cu un aspect modern și dând atenție tipograficelor clare, Writr pune accentul pe conținutul tău."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Căutare &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Căutare:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutări pentru: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că nu putem găsi ceea ce cauți tu. Poate o căutare ar fi de ajutor."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nimic nu se potrivește termenilor căutării tale. Te rog încearcă din nou cu cuvinte cheie diferite."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gata să publici primul tău articol? <a href=\"%1$s\">Poți începe aici</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Nu a fost găsit nimic"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "Un comentariu"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Scrie un comentariu"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "comentarii"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Etichete"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Vezi toate posturile scrise de %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău e în așteptare."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "Articole mai noi <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> Articole mai vechi"
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "%title <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:38
+msgid "<span class=\"genericon genericon-leftarrow\"></span> %title"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> %title"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigare articole"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Roșu"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Violet"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Gri"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Verde"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Albastru"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turcoaz"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Schemă de culoare"
+
+#: inc/customizer.php:43
+msgid "Wider Content Area"
+msgstr "Zonă conținut extinsă"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr "Imagine fundal pagină completă"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Opțiuni temă"
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "Următor <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> Anterior"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Atât comentariile cât și trackback-urile sunt închise."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackback-urile sunt închise dar poți <a class=\"comment-link\" href=\"#respond\" title=\"Publică un comentariu\">publica un comentariu</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Comentariile sunt închise dar poți lăsa un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL-ul de trackback la articolul tău\" rel=\"trackback\">URL-ul de trackback</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Publică un comentariu\">Publică un comentariu</a> sau lasă un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL-ul de trackback pentru situl tău\" rel=\"trackback\">URL-ul de trackback</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Mărime"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "Data de sfârșit:"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Sări la conţinut"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Meniu"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Bară laterală"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Propulsat cu mândrie de %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "O platformă semantică de publicare personală"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter "
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "continuă să citeşti"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "lipicios"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Link permanent la %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Standard"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Toate cele %s de articole "
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Editare"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Pagină"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Comentariile nu sunt permise."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarii mai vechi"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Comentarii mai vechi"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigare în comentarii"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un gând despre &8222;%2$s&8221;"
+msgstr[1] "%1$s gânduri despre &8222;%2$s&8221;"
+msgstr[2] "%1$s de gânduri despre &8222;%2$s&8221;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Arhive"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Discuții"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Stări"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "Fișiere audio"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Galerii"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Legături"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citate"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Fişiere video"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Imagini"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Laterale"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "An: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Lună: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Zi: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Încearcă să cauți în arhiva lunară. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Cele mai folosite categorii"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nu a fost găsit nimic la această locație. Poate încerci una din legăturile de mai jos sau o căutare?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Pagina nu a fost găsită."

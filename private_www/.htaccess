@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /private_www/
+
+###
+# Error Pages
+###
+ErrorDocument 401 /401.shtml
+ErrorDocument 403 /403.shtml
+ErrorDocument 404 /404.shtml
+ErrorDocument 500 /500.shtml
+ErrorDocument 501 /500.shtml
+ErrorDocument 502 /500.shtml
+ErrorDocument 503 /500.shtml
+ErrorDocument 504 /500.shtml
+ErrorDocument 505 /500.shtml
+ErrorDocument 506 /500.shtml

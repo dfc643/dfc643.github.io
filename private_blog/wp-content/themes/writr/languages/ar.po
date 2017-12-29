@@ -1,0 +1,420 @@
+# Translation of WordPress.com - Themes - Writr in Arabic
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "لون #2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "لون #1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "خلفية"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "تفاصيل"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "المنظِّم"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "المكان"
+
+#: inc/template-tags.php:279
+msgid "Event date and time"
+msgstr "وقت وتاريخ الحدث"
+
+#: eventbrite/eventbrite-index.php:40 eventbrite/eventbrite-single.php:27
+msgid "Eventbrite event"
+msgstr "حدث Eventbrite"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr قالب مبسّط يركّز على محتوى tumbleblog ويناسب مدونتك الشخصية.  يأتي مزوداً بست أنظمة لونية : التركواز (افتراضي) ، أزرق ، أخضر ، رمادي ، بنفسجي وأحمر. قالب Writr ذو المظهر الحديث والعناية بالخط الأنيق يضع محتواك في الصدارة."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "بحث &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "البحث عن:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "تعليقات"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "وسوم"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "عرض جميع المواضيع التي كتبها %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "كاتب"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "التنبيهات:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "المقالات الأحدث <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> المقالات الأقدم"
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "%title <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:38
+msgid "<span class=\"genericon genericon-leftarrow\"></span> %title"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> %title"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "أحمر"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "بنفسجي"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "رمادي"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "أخضر"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "أزرق"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "فيروزي"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "اللون العام"
+
+#: inc/customizer.php:43
+msgid "Wider Content Area"
+msgstr "منطقة محتوى أوسع"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr "صورة خلفية لكامل الشاشة"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "<span class=\"genericon genericon-rightarrow\"></span> التالية"
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr "السابقة <span class=\"genericon genericon-leftarrow\"></span>"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "التعليقات والتعقيبات مغلقة حالياً"
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "التعقيبات مغلقة، ولكن يمكنك <a class=\"comment-link\" href=\"#respond\" title=\"ترك تعليق\">ترك تعليق</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "التعليقات مغلقة ولكن يمكنك ترك تعقيب: <a class=\"trackback-link\" href=\"%s\" title=\"رابط التعقيب للمقالة\" rel=\"trackback\">رابط التعقيب</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"إضافة تعليق\">إضافة تعليق</a> أو ترك تعقيب: <a class=\"trackback-link\" href=\"%s\" title=\"رابط التعقيب لهذه المقالة\" rel=\"trackback\">رابط تعقيب</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "حجم"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "التاريخ"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:40
+msgid "Menu"
+msgstr "القائمة"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "منصة نشر شخصي دلالية"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "أكمل قراءة الموضوع"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "مثبت"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "الرابط الدائم لـِ %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "قياسي"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "كل %s المقالات"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "الصفحة"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد حول &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "دردشات"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "الحالات"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "صوتيات"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "المعارض"
+
+#: archive.php:60
+msgid "Links"
+msgstr "روابط"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "فيديو"
+
+#: archive.php:51
+msgid "Images"
+msgstr "صور"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "حاول أن تبحث في الأرشيف الشهري. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "أكثر التصنيفات استخداماً"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."

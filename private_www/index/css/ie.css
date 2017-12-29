@@ -1,0 +1,15 @@
+/* ///////////////////////////////////
+STYLE:  FOR IE
+DESIGN: NORCKON
+DATE:   03/14/2014  FRI  14:39
+USE:    PRIVATE
+/////////////////////////////////// */
+
+#metro > div {
+    width:281px !important; 
+    border:1px solid #BABABA;
+}
+
+#banner .banner-inner .banner-text {
+    color: #4BC1FC !important;
+}

@@ -1,0 +1,152 @@
+html, body, .container {
+    height:100%;
+}
+
+.container {
+    width:100% !important;
+}
+
+.container .main-head {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:40px;
+    z-index:999;
+    line-height:40px;
+    margin:0;
+    padding:0;
+    border-bottom:1px solid #6a9fec;
+    color:#fff;
+    text-align:center;
+    font-size:20px;
+    background: #308ddd;
+    background: -moz-linear-gradient(top,  #308ddd 0%, #2f70d8 100%);
+    background: -webkit-linear-gradient(top,  #308ddd 0%,#2f70d8 100%);
+    background: linear-gradient(to bottom,  #308ddd 0%,#2f70d8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#308ddd', endColorstr='#2f70d8',GradientType=0 );
+}
+
+#main-control {
+    position:fixed;
+    bottom:0px;
+    background:#eee;
+    width:100%;
+    height:50px;
+    text-align:center;
+    display:table;
+    z-index:999;
+}
+
+#main-control .gpull {
+    float:left;
+    display:table;
+}
+
+#main-control .pull-left {
+    height:100%;
+    float:left;
+}
+
+#main-control .pull-left-1 {
+    margin-right:3px;
+    margin-right:3px;
+    margin-right:3px;
+}
+
+#main-control .btn {
+    height:100%;
+    border:none;
+    box-shadow:none;
+    padding-top: 0;
+    padding-bottom: 0;
+    width:30px;
+    margin:0;
+    background:none;
+    font-size:9px;
+}
+
+#main-control .btn i {
+    width:20px;
+    height:20px;
+    background-size:20px !important;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#active-tasks {
+    margin-top:42px;
+}
+
+#other-tasks {
+    margin-bottom:50px;
+}
+
+.section-header {
+    background:#dfedfd;
+    height:25px;
+    line-height:25px;
+    font-size:12px;
+    color:#000;
+    text-indent:10px;
+    border-bottom:1px dashed #006ED0;
+}
+
+.tasks-table {
+    margin:0;
+}
+
+#active-tasks .task {
+    height:63px;
+}
+
+#active-tasks .progress {
+    width: 95% !important;
+    margin: 0 2.5%;
+}
+
+#active-tasks small {
+    font-size:10px;
+}
+
+#other-tasks .task {
+    height:63px;
+}
+
+#active-tasks .progress-info {
+    margin-top:1px;
+}
+
+#other-tasks .progress {
+    width: 95% !important;
+    margin: 0 2.5%;
+}
+
+.task .right-area {
+    width: 116px !important;
+    text-align: right;
+}
+
+.task .left-area {
+    width: 85% !important;
+}
+
+.task .left-area .task-name span {
+    font-weight:normal;
+    font-size:14px;
+}
+
+#main-control #not-selected-grp .icon-play {background:url(../img/icon-start-alt.png)}
+#main-control #not-selected-grp .icon-remove {background:url(../img/icon-delete-alt.png)}
+#main-control #not-selected-grp .icon-pause {background:url(../img/icon-pause-alt.png)}
+#main-control #selected-grp .icon-play {background:url(../img/icon-start.png)}
+#main-control #selected-grp .icon-remove {background:url(../img/icon-delete.png)}
+#main-control #selected-grp .icon-pause {background:url(../img/icon-pause.png)}
+#main-control .icon-wrench {background:url(../img/icon-settings.png)}
+#main-control .icon-refresh {background:url(../img/icon-refresh.png)}
+#main-control .icon-plus {background:url(../img/icon-new.png)}
+i.icon-trash-alt {background: url(../img/icon-trash.png); background-size: 15px;}
+i.icon-remove-alt {background: url(../img/icon-delete.png); background-size: 15px;}
+i.icon-pause-alt2 {background: url(../img/icon-pause.png); background-size: 15px;}
+i.icon-time-alt {background: url(../img/icon-clock-alt.png); background-size: 15px;}
+i.icon-ok-alt {background: url(../img/icon-ok-alt.png); background-size: 15px;}
+i.icon-download-alt {background: url(../img/icon-download.png);}

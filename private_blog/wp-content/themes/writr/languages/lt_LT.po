@@ -1,0 +1,360 @@
+# Translation of WordPress.com - Themes - Writr in Lithuanian
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-23 16:01:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: lt\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Fono nustatymai"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Informacija"
+
+#: eventbrite/eventbrite-index.php:40 eventbrite/eventbrite-single.php:27
+msgid "Eventbrite event"
+msgstr "Eventbrite renginys"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Ieškoti"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ieškoti pagal:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai skirti: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Atrodo mes negalime rasti to ko jūs ieškote. Gal paieška padės."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį. "
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę išleisti savo pirmą įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Nieko nerasta"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% Komentaras"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "Komentarų: 1"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Parašykite komentarą"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "komentarai"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Žymos"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Peržiūrėti visus %s įrašus"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Autorius"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Komentaras laukia administratoriaus patvirtinimo."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Atgalinė nuoroda:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Įrašo naršymas"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Puslapis %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Raudona"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Violetinė"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Pilka"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Žalia"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Mėlyna"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Spalvų schema"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr "Pilno ekrano fono paveikslėlis"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Temos nuostatos"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Šiuo metu tiek komentarai, tiek atsiliepimai išjungti."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Atgalinės nuorodos išjungtos, bet galite <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">palikti komentarą</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentarai išjungti, bet galite palikti atgalinę nuorodą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Atgalinė URL</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Įrašykite komentarą</a> arba palikite atsiliepimą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Sekimo URL</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Dydis"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "mergina ar vaikinas"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Praleisti ir eiti į turinį"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Meniu"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Valdiklių sritis"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s sukūrė %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Sistema: %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Semantinė asmeninio turinio platforma"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitteris"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Skaityti toliau"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "Prilipdytas"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Nuolatinė nuoroda į %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Standartinis"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Visi %s įrašai"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Puslapis"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentavimo galimybė išjungta."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Senesni komentarai"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Naujesni komentarai"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Senesni komentarai"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Komentaro naršymas"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Vienas komentaras &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarai &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentarų &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Archyvai"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Pokalbiai"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Statusai"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "Audio įrašai"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Galerijos"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Nuorodos"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citatos"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Video įrašai"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Paveikslėliai"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Šalutinė pastaba"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Metai: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Mėnesis: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Diena: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Autorius: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Pabandykite pažiūrėti mėnesio archyve. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Populiariausios kategorijos"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Nieko nerasta. Galbūt pabandykite vieną iš nuorodų žemiau arba paiešką? "
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Deja, toks puslapis nerastas. "

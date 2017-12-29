@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!OWN FC-SYSTEM>
+<html>
+<body>
+<title>HTTP 403 - FORBIDDEN</title>
+<meta charset="utf-8" />
+<style>
+    input {
+        border: 0px;
+        color: #00aafc;
+    }
+    #main {
+        position: absolute;
+        width: 500px; height: 300px;
+        top: 50%; left: 50%;
+        margin-top: -150px; margin-left: -250px;
+        border: 1px solid #00aafc;
+    }
+    #title {
+        width: 500px; height: 40px; line-height: 40px;
+        background: #00aafc; color: #ffffff;
+        text-align: center; font-weight: bold;
+    }
+    #content {
+        width: 470px; height: 190px;
+        padding: 15px;
+        color: #00aafc;
+        vertical-align: middle;
+		font-size: 14px;
+    }
+    #content a {
+        color: #66ccff;
+        text-decoration: none;
+    }
+    #content a:hover {
+        color: #00aafc;
+        text-decoration: none;
+    }
+    #footer {
+        width: 500px; height: 40px; line-height: 40px;
+        text-align: center; 
+        color: #00aafc;
+        border-top: 1px solid #00aafc;
+    }
+</style>
+<div id="main">
+    <div id="title">403 Forbidden</div>
+    <div id="content">
+        <script type="text/javascript">
+            var timer1 = 10;
+            var url = 'https://fcsys.org';
+            document.write('Oops, your access has some problem. Please check address you input (<input type="text" value="' + document.location.href + '"/>) and try <a href="javascript:location.reload();">reload page</a>. If the problem still is not solved, please <a href="mailto:dfc643@moegirl.org" target="_blank">contact administrator</a>.<br/><br/>');
+            document.write('<b>Hostname: </b><input type="text" value="' + location.hostname + '" style="width:380px;"/><br/>');
+            document.write('<b>Destination: </b><input type="text" value="' + location.pathname + '" style="width:370px;"/><br/>');
+            if(document.referrer=="") {
+                document.write('<b>Referer: </b>Direct Access<br/>');
+            } else {
+                document.write('<b>Referer: </b><input type="text" value="' + document.referrer + '" style="width:380px;"/><br/>');
+            }
+            document.write('<p id="redirect"><b>10</b> Seconds after will turn to FC-SYSTEM homepage.</p>');
+            for(var i=timer1;i>=0;i--) {
+                window.setTimeout("redirect_js("+i+");",(timer1-i)*1000);   
+            }
+            function redirect_js(num) {
+                document.getElementById('redirect').innerHTML = '<b>'+ num +'</b> Seconds after will turn to FC-SYSTEM homepage.'; 
+                if(num==0) {
+                    window.location.href='https://fcsys.org';
+                }
+            }
+        </script>
+    </div>
+    <div id="footer">FC-System Computer Inc</div>
+</div>
+</body>
+</html>

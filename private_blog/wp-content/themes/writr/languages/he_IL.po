@@ -1,0 +1,396 @@
+# Translation of WordPress.com - Themes - Writr in Hebrew
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "צבע #2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "צבע #1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "רקע"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "פרטים"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "מארגן"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr היא ערכת עיצוב מינימליסטית מוכוונת תוכן מסוג tumblelog שמתאימה במיוחד לבלוג האישי שלך. היא מגיעה עם שש סכמות צבעים: טורקיז (ברירת מחדל), כחול, ירוק, אפור, סגול ואדום. יש ה מראה מודרני ותשומת לב לטיפוגרפיה חדה ובכך Writr שמה את הדגש על התוכן שלך."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "חיפוש &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "חפש:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "השארת תגובה"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "תגובות"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "תגיות"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "הצגת הרשומות של %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "מאת"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה ממתינה לאישור."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "פינגבק:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "רשומות חדשות יותר  <span class=\"genericon genericon-leftarrow\"></span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr "<span class=\"genericon genericon-rightarrow\"></span> רשומות קודמות"
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "%title <span class=\"genericon genericon-leftarrow\"></span>"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "ניווט ברשומות"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "אדום"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "סגול"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "אפור"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "ירוק"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "כחול"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "טורקיז"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "ערכת צבעים"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr "תמונת רקע ברוחב מלא"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "אפשרויות"
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "הבא <span class=\"genericon genericon-leftarrow\"></span>"
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr "<span class=\"genericon genericon-rightarrow\"></span> הקודם"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "סגור לפרסום תגובות והשארת עקבות."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "סגור להשארת עקבות, אבל ניתן <a class/\"comment-link\" href=\"#respond\" title=\"פרסם תגובה\">לפרסם תגובה</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "סגור לתגובות, אבל ניתן להשאיר עקבות: <a class=\"trackback-link\" href=\"%s\" title=\"נתיב להשארת עקבות לרשומה שלך\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"פרסם תגובה\">פרסם תגובה</a> או השאר עקבות: <a class=\"trackback-link\" href=\"%s\" title=\"נתיב להשארת עקבות לרשומה שלך\" rel=\"trackback\">טראקבק</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "גודל"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "יוצאים"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: header.php:40
+msgid "Menu"
+msgstr "תפריט"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr " סרגל צדדי"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "פלטפורמה סמנטית לפרסום תוכן"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "פייסבוק"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "טוויטר"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "להמשיך לקרוא"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "דביק"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "קישור קבוע לרשומה %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "רשומה רגילה"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "כל הרשומות של %s"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "עריכה"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr ":עמודים"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "עמוד"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "תגובות חדשות יותר &larr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&rarr; תגובות ישנות יותר"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "תגובות חדשות יותר"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "תגובות קודמות"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "ארכיון"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "צ'טים"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "סטטוסים"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "קבצי אודיו"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "גלריות"
+
+#: archive.php:60
+msgid "Links"
+msgstr "קישורים"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "ציטוטים"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "סרטונים"
+
+#: archive.php:51
+msgid "Images"
+msgstr "תמונות"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "קצרצרים"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "שנה: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "חודש: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "יום: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "מחבר: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "כדאי לחפש בארכיון החודשי. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "קטגוריות בולטות"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."

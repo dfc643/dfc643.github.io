@@ -1,0 +1,358 @@
+# Translation of WordPress.com - Themes - Writr in Swedish
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "Färg 2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "Färg 1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Bakgrund"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Detaljer"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "Organisatör"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "Mötesplats"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr matchade inget din sökning. Prova igen med något eller några andra nyckelord."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Inget funnet"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "kommentarer"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Etiketter"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Författare"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Ping:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Röd"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Lila"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Grå"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Grön"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Blå"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turkos"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Färgschema"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Temainställningar"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Både trackbacks och kommentarer är för tillfället inaktiverade."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks är inaktiverade, men du kan <a class=\"comment-link\" href=\"#respond\" title=\"Posta en kommentar\">posta en kommentar</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Kommetarer är inaktiverade, men du kan lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>"
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Posta en kommentar\">Posta en kommentar</a> eller lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Storlek"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "träff"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s av %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "En semantisk plattform för personlig publicering"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Fortsätt läs"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "klistrad"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Permalänk till %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Standard"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Alla %s inlägg"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Redigera"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Sida"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Nyare kommentare"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Äldre kommentarer"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En reaktion på &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s reaktioner på &rdquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Arkiv"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Chattar"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Statusar"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "Ljud"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Länkar"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citat"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Noteringar"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "År: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Månad: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Författare: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prova att leta i månadsarkiven. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Mest använda kategorier"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det verkar som att det inte finns någonting här. Du kan testa en av länkarna nedan eller att göra en sökning."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan, sidan kunde inte hittas."

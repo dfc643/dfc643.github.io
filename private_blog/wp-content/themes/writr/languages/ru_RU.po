@@ -1,0 +1,365 @@
+# Translation of WordPress.com - Themes - Writr in Russian
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-28 11:34:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "Цвет №2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "Цвет №1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Фон"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Детали"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr представляет собой минималистичную, контент-ориентированную тему тамблелога, идеально подходящую для личного блога. С ней в комплекте идут 6 структур различных цветов: бирюзовая (по умолчанию), синяя, зеленая, серая, фиолетовая и красная. Благодаря современному дизайну и вниманию к идеальной типографии Writr делает акцент в первую очередь на содержании."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск&hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Найти:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "- комментарии"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Автор"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "Следующие записи  <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Красный"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Пурпурный"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Серый"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Зелёный"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Синий"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Бирюзовый"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Комментарии и трекбеки отключены."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Трэкбеки закрыты, но вы можете <a class=\"comment-link\" href=\"#respond\" title=\"Оставить комментарий\">оставить комментарий</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Комментарии отключены, но вы можете оставить обратную ссылку: <a class=\"trackback-link\" href=\"%s\" title=\"URL обратной ссылки на запись\" rel=\"trackback\">URL обратной ссылки</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Добавить комментарий\">Добавить комментарий</a> или оставить обратную ссылку: <a class=\"trackback-link\" href=\"%s\" title=\"URL обратной ссылки на запись\" rel=\"trackback\">URL обратной ссылки</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Размер"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "свидания"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Меню"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "вкл"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Семантическая платформа для персональных публикаций"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Читать далее"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "прилеплена"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка: %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Стандартный"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Все %s записи"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Изменить"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "страница"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: Один комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Архивы"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Чаты"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Статусы"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Галереи"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Заметки"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте поискать в ежемесячных архивах. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Самые используемые рубрики"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По этому адресу ничего не найдено. Воспользуйтесь одной из следующих ссылок или поиском."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."

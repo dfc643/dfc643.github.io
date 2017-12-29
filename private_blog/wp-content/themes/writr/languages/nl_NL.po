@@ -1,0 +1,368 @@
+# Translation of WordPress.com - Themes - Writr in Dutch
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "Kleur #2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "Kleur #1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Achtergrond"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Details"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "Organisator"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "Lokatie"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr is een minimalistisch, content gericht tumblelog thema dat ideaal is voor je persoonlijke blog. Het wordt geleverd met 6 verschillende kleurschema's: turquoise (standaard), blauw, groen, grijs, paars en rood. Met een modern uiterlijk en aandacht voor heldere typografie, legt Writr de nadruk op je content."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Zoek &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Zoek op:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, maar niets kwam overeen met je zoektermen. Gelieve het opnieuw te proberen met een aantal andere trefwoorden."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% reacties"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Een reactie plaatsen"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "reacties"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie is in afwachting van moderatie."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Berichtnavigatie"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Rood"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Paars"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Grijs"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Groen"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Blauw"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turquoise"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Thema opties"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Reacties en trackbacks zijn beide gesloten op dit moment."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks zijn gesloten, maar je kan <a class=\"comment-link\" href=\"#respond\" title=\"Plaats een reactie\">een reactie plaatsen</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Je kan geen reacties meer toevoegen, maar laat gerust een trackback na: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL voor je bericht\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Voeg een reactie toe\">Voeg een reactie toe</a> of laat een trackback achter: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL voor je bericht\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Afmeting"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "afspraakje"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Spring naar inhoud"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "aan"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Met trots ondersteund door %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Een semantisch persoonlijk publicatieplatform"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Verder lezen"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "Plakker"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Standaard"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Alle %s berichten"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Bewerken"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Pagina"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwe reacties &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Een gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Archief"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Statussen"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Galerijen"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Links"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Gezegden"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Video&#39;s"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Opmerkingen"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Jaar: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Maand: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Probeer eens te zoeken in het maandelijks archief. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorie&#235;n"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Het lijkt erop dat niets werd gevonden op deze locatie. Probeer dan misschien een van de links hieronder of een zoekopdracht?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Die pagina kon niet worden gevonden."

@@ -1,0 +1,356 @@
+# Translation of WordPress.com - Themes - Writr in Italian
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-05 15:49:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "Colore n. 2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "Colore n. 1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "Sfondo"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Dettagli"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "Organizzatore"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "Luogo Designato"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr è un tema tumblelog minimalista che punta ai contenuti, perfetto per il tuo blog personale. Ha 6 diversi schemi di colori pronti: turchese (predefinito), blu, verde, grigio, viola e rosso. Col suo look moderno e una precisa attenzione alla tipografia, Writr mette in risalto i tuoi contenuti."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cerca &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ricerca per:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Non riusciamo a trovare quello che cerchi. Forse eseguire una ricerca potrebbe essere di aiuto."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacente, nulla corrisponde i termini della tua ricerca. Riprova con parole chiave diverse."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Comincia da qui</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% commenti"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "commenti"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Tag"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli di %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Autore"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento deve ancora venire moderato."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Rosso"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Viola"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Grigio"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Verde"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Blu"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turchese"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Schema colore"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Opzioni tema"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Commenti e trackback sono attualmente chiusi."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "I trackback sono chiusi, ma puoi <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">postare un commento</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "I commenti sono chiusi, ma puoi lasciare un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">URL del trackback</a>. "
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Posta un commento\">Posta un commento</a> o usa questo <a class=\"trackback-link\" href=\"%s\" title=\"URL per il trackback a questo post\" rel=\"trackback\">indirizzo per il trackback</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Dimensione"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "appuntamento"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: header.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Funziona grazie a %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Una piattaforma semantica di editoria personale"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter "
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Continua a leggere"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "fisso"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Standard"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Tutti %s i posti"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Modifica"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Pagine: "
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Pagina"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti meno recenti"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Commenti più recenti"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Commenti precedenti"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri su &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Archivi"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Link"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Immagini"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Incisi"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Anno: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Mese: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Giorno: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Autore: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provare a consultare gli archivi mensili. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Categorie più utilizzate"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra che non ci sia nulla a questo indirizzo. Perché non provi con uno dei link in basso o una ricerca?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Impossibile trovare la pagina."

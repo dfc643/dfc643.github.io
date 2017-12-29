@@ -1,0 +1,415 @@
+# Translation of WordPress.com - Themes - Writr in Persian
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 09:43:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fa\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/wpcom-colors.php:178
+msgid "Color #2"
+msgstr "رنگ #2"
+
+#: inc/wpcom-colors.php:94
+msgid "Color #1"
+msgstr "رنگ #1"
+
+#: inc/wpcom-colors.php:33
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "جزییات"
+
+#: inc/template-tags.php:297
+msgid "Organizer"
+msgstr "سازمان‌دهنده"
+
+#: inc/template-tags.php:287
+msgid "Venue"
+msgstr "میعادگاه"
+
+#: inc/template-tags.php:279
+msgid "Event date and time"
+msgstr "تاریخ و زمان رویداد"
+
+#: eventbrite/eventbrite-index.php:40 eventbrite/eventbrite-single.php:27
+msgid "Eventbrite event"
+msgstr "رویداد Eventbrite"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr "Writr یک پوستهٔ مینیمالیستی و مطلب‌گرا برای نوشته‌های کوتاه است. عالی برای وب‌نوشت‌های شخصی. شش رنگ‌بندی متفاوت پیش‌فرض دارد: فیروزه ای (پیش‌فرض)، آبی، سبز، خاکستری، بنفش، و قرمز. با نمایی نوین و توجه به تایپوگرافی محکم، Writr تمرکزها را روی مطالب جلب می‌کند."
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "جستجو &hellip;"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتایج جست‌وجو برای: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "به نظر می‌آید ما نمی‌توانیم آنچه به دنبالش هستید بیابیم. احتمالا جست‌وجو می‌تواند کمک کند."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "متأسفیم، موردی مطابق با جستجوی شما پیدا نشد. لطفا برای جستجو از کلیدواژه‌های دیگری استفاده کنید."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "۱ دیدگاه"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "بیان دیدگاه"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "مشاهدهٔ همهٔ نوشته‌ها بر اساس %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما چشم به راه بررسی است."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "بازتاب: "
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "نوشته‌های پسین  <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> نوشته‌های پیشین"
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "%title <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: inc/template-tags.php:38
+msgid "<span class=\"genericon genericon-leftarrow\"></span> %title"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> %title"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "ناوبری نوشته"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "صفحهٔ %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "قرمز"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "بنفش"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "خاکستری"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "سبز"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "آبی"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "فیروزه‌ای"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "رنگ‌بندی"
+
+#: inc/customizer.php:43
+msgid "Wider Content Area"
+msgstr "پهنهٔ مطالب پهن‌تر"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr "تصویر پس‌زمینهٔ تمام‌صفحه"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "گزینه‌های پوسته"
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr "پسین <span class=\"genericon genericon-rightarrow\"></span>"
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr "<span class=\"genericon genericon-leftarrow\"></span> پیشین"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "دیدگاه‌ها و دنبالكها هردو درحال حاضر بسته هستند."
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "دنباله‌ها بسته شده‌اند، اما شما می‌توانید <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\"> دیدگاهی بیان کنید</a>."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "دیدگاه‌ها بسته شده‌اند، اما شما می‌توانید یک دنباله بگذارید: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\"> آدرس اینترنتی دنباله </a>. "
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">دیدگاهی بفرستید</a> یا یک دنبالک بگذارید: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">آدرس دنبالک</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "اندازه"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "نامزد"
+
+#: header.php:41
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: header.php:40
+msgid "Menu"
+msgstr "گزینگان"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:135
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "روشن"
+
+#: functions.php:119 sidebar.php:10
+msgid "Sidebar"
+msgstr "ستون کناری"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "گزینگان اصلی"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "پوسته: %1$s کاری از %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "با افتخار، نیرو گرفته از %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr "بستر نشر شخصی معنایی"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "تامبلر"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "لینکداین"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "گوگل+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "توئیتر"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "به خواندن ادامه دهید"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "سنجاق شده"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "پایاپیوند به %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "استاندارد"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "همهٔ %s نوشته"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "ویرایش"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "صفحه‌ها:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "صفحه"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه‌های تازه‌تر &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; دیدگاه‌های پیشین"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "دیدگاه‌های تازه‌تر"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "دیدگاه‌های پیشین"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "بایگانی"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "گفتگوها"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "وضعیت‌ها"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "صوت‌ها"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "گالری‌ها"
+
+#: archive.php:60
+msgid "Links"
+msgstr "پیوندها"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "گفتاورد"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "ویدئوها"
+
+#: archive.php:51
+msgid "Images"
+msgstr "تصویرها"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "کلمات قصار"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "ماه: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "روز: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "بد نیست نگاهی به بایگانی ماهانه بیندازید. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "پراستفاده‌ترین دسته‌ها"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "به نظر می‌رسد چیزی در این مکان نیست. شاید بخواهید یکی از پیوندهای زیر یا جست‌وجو را آزمایش کنید."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوه! امکان یافتن صفحه نیست."

@@ -1,0 +1,313 @@
+# Translation of WordPress.com - Themes - Writr in Catalan
+# This file is distributed under the same license as the WordPress.com - Themes - Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-21 06:43:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ca\n"
+"Project-Id-Version: WordPress.com - Themes - Writr\n"
+
+#: inc/template-tags.php:314
+msgid "Details"
+msgstr "Mostra els detalls"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/writr/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca per a: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembla que no podem trobar el que busqueu. Potser el cercador us pot ajudar."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Res no coincideix amb els termes de cerca. Torneu-ho a provar amb algunes paraules claus diferents."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Preparats per publicar la primera entrada? <a href=\"%1$s\">Comenceu aquí</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "No s'ha trobat res"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "% comentaris"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr "1 comentari"
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "comentaris"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Mostra totes les entrades de %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "El comentari està esperant moderació."
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Retroenllaç:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navegació d'entrades"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Pàgina %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Vermell"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Violeta"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Verd"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Blau"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turquesa"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Esquema de color"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Opcions del tema"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Comentaris i Enllaços de retorn estan tancats."
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Els comentaris estan desactivats, però pots deixar un retroenllaç: <a class=\"trackback-link\" href=\"%s\" title=\"URL del retroenllaç a la teva entrada\" rel=\"trackback\">URL del retroenllaç</a>. "
+
+#: image.php:54
+msgid "Size"
+msgstr "Mida"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "lligue"
+
+#: header.php:42
+msgid "Skip to content"
+msgstr "Vés al contingut"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menú"
+
+#: functions.php:111 sidebar.php:10
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Gràcies al %s"
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter "
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Continua llegint"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "tema recurrent"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Enllaç permanent a %s"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Estàndard"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Totes %s les entrades"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+#: inc/template-tags.php:327
+msgid "Edit"
+msgstr "Edita"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "Pàgina"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Els comentaris estan tancats."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Comentaris més recents  &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentaris anteriors"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Comentaris recents"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Comentaris anteriors"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Navegació pels comentaris"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensament sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensaments sobre &ldquo;%2$s&rdquo;"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Arxius"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Xats"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Estats"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "Àudios"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Galeries"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Enllaços"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Cites"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Vídeos"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Imatges"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Notes"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Any: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Dia: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Intenteu cercar en l'arxiu mensual. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Categories més usades"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembla que no s'ha trobat res en aquest lloc. Potser podeu provar un dels següents enllaços o fer una cerca?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Aquesta pàgina no es pot trobar."

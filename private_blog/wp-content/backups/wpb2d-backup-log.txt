@@ -1,0 +1,22 @@
+23:09:01: Backup started on Saturday September 28, 2013.
+23:09:01: Your time limit is 30 seconds and your memory limit is 128M
+23:09:12: Creating SQL backup.
+23:09:16: SQL backup complete. Starting file backup.
+23:09:22: Approximately 1% complete.
+23:09:28: Approximately 6% complete.
+23:09:34: Approximately 11% complete.
+23:09:43: Approximately 14% complete.
+Uploaded Files:[{"file":"u582799021_mysql-backup-plugins.sql","mtime":1380377356}]
+23:09:49: Approximately 28% complete.
+Uploaded Files:[{"file":"u582799021_mysql-backup-core.sql","mtime":1380377353}]
+23:09:56: Approximately 39% complete.
+23:10:02: Approximately 48% complete.
+23:10:08: Approximately 52% complete.
+23:10:14: Approximately 55% complete.
+23:10:20: Approximately 56% complete.
+23:10:26: Approximately 57% complete.
+23:10:32: Approximately 59% complete.
+23:10:38: Approximately 62% complete.
+23:10:39: Backup complete.
+23:10:39: A total of 2557 files were processed.
+23:10:39: A total of 29MB of memory was used to complete this backup.

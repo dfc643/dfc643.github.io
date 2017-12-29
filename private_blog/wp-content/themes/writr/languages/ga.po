@@ -1,0 +1,373 @@
+# Translation of Writr in Irish
+# This file is distributed under the same license as the Writr package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-02 05:47:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Writr\n"
+
+msgid "Writr is a minimalist, content-oriented tumblelog theme perfect for your personal blog. It comes packed with 6 different color schemes: turquoise (default), blue, green, grey, purple, and red. With a modern look and attention to crisp typography, Writr put the focus on your content."
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cuartú …"
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Cuartú:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Torthaí ar: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sén chaoi nár frítheadh an rud a bhí tú a iarraidh. B’fhéidir go gcuartófá é."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sén chaoi nár frítheadh na téarmaí a chuartaigh tú. D’fhéadfá focla eile a chuartú."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "bhFuil tú réidh le halt a fhoilsiú? <a href=\"%1$s\">Féadfaidh tú tosaí anseo</a>."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Gan Toradh"
+
+#: inc/template-tags.php:261
+msgid "% Comments"
+msgstr "Freagraí: %"
+
+#: inc/template-tags.php:261
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:261
+msgid "Leave a comment"
+msgstr "Freagra"
+
+#: inc/template-tags.php:260
+msgid "Comments"
+msgstr "Freagraí"
+
+#: inc/template-tags.php:247
+msgid "Tags"
+msgstr "Clibeanna"
+
+#: inc/template-tags.php:232
+msgid "View all posts by %s"
+msgstr "Gach a bhfuil foilsithe ag %s"
+
+#: inc/template-tags.php:231
+msgid "Author"
+msgstr "Údar"
+
+#: inc/template-tags.php:99
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s ag %2$s"
+
+#: inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Tá do fhreagra fós le ceadú."
+
+#: inc/template-tags.php:39
+msgid "%title <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Newer posts  <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Ping:"
+
+#: inc/template-tags.php:38
+msgid "<span class=\"genericon genericon-leftarrow\"></span> %title"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/extras.php:76
+msgid "Page %s"
+msgstr "Leathanach %s"
+
+#: inc/customizer.php:64
+msgid "Red"
+msgstr "Dearg"
+
+#: inc/customizer.php:63
+msgid "Purple"
+msgstr "Corcra"
+
+#: inc/customizer.php:62
+msgid "Grey"
+msgstr "Liath"
+
+#: inc/customizer.php:61
+msgid "Green"
+msgstr "Glas"
+
+#: inc/customizer.php:59
+msgid "Turquoise"
+msgstr "Turcaideach"
+
+#: inc/customizer.php:60
+msgid "Blue"
+msgstr "Gorm"
+
+#: inc/customizer.php:43
+msgid "Wider Content Area"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "Scéim Dathanna"
+
+#: inc/customizer.php:31
+msgid "Full Page Background Image"
+msgstr ""
+
+#: image.php:82
+msgid "<span class=\"genericon genericon-leftarrow\"></span> Previous"
+msgstr ""
+
+#: image.php:83
+msgid "Next <span class=\"genericon genericon-rightarrow\"></span>"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "Roghanna Téama"
+
+#: image.php:72
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: image.php:70
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:68
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Tá na freagraí dúnta, ach d'fhéadfá blagthásc a dhéanamh: <a class=\"trackback-link\" href=\"%s\" title=\"URL blagtháisc don alt\" rel=\"trackback\">URL blagtháisc</a>."
+
+#: image.php:66
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Scríobh freagra\">Scríobh freagra</a> nó déan blagthásc: <a class=\"trackback-link\" href=\"%s\" title=\"URL blagtháisc don alt\" rel=\"trackback\">URL blagtháisc</a>."
+
+#: image.php:54
+msgid "Size"
+msgstr "Tomhais"
+
+#: image.php:49 inc/template-tags.php:219
+msgid "Date"
+msgstr "théiteá amach leis nó léi tráth"
+
+#: header.php:42
+msgid "Skip to content"
+msgstr "Beir go dtí an t-alt féin mé"
+
+#: functions.php:121
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Roghchlár"
+
+#: functions.php:105 sidebar.php:10
+msgid "Sidebar"
+msgstr "Taobh-Bharra"
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr "Príomhroghchlár"
+
+#: footer.php:75
+msgid "Theme: %1$s by %2$s."
+msgstr "Téama: %1$s le %2$s."
+
+#: footer.php:74
+msgid "Proudly powered by %s"
+msgstr "Le cumhacht %s"
+
+#: footer.php:74
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:63 footer.php:64
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:55 footer.php:56
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:47 footer.php:48
+msgid "Google+"
+msgstr "Google+"
+
+#: footer.php:39 footer.php:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:31 footer.php:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: content.php:42
+msgid "Continue reading"
+msgstr "Coinnigh á léamh"
+
+#: content.php:28
+msgid "Sticky"
+msgstr "greamaithe"
+
+#: content-single.php:28 content.php:32
+msgid "Standard"
+msgstr "Gnáthalt"
+
+#: content.php:21
+msgid "Permalink to %s"
+msgstr "Buan-nasc le %s"
+
+#: content-single.php:26 content.php:30
+msgid "All %s posts"
+msgstr "Na %s alt uile"
+
+#: content-page.php:31 image.php:76 inc/template-tags.php:71
+#: inc/template-tags.php:112 inc/template-tags.php:267
+msgid "Edit"
+msgstr "Eagar"
+
+#: content-page.php:26 content-single.php:36 content.php:45 image.php:39
+msgid "Pages:"
+msgstr "Leathanaigh:"
+
+#: content-page.php:19
+msgid "Page"
+msgstr "(Leathanaigh)"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Freagraí dúnta."
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Freagraí Nua &rarr;"
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Seanfhreagraí"
+
+#: comments.php:38
+msgid "Newer Comments"
+msgstr "Freagraí Níos Nuacha"
+
+#: comments.php:37
+msgid "Older Comments"
+msgstr "Seanfhreagraí"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Treoraíocht freagartha"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Smaoineamh amháin ar “%2$s”"
+msgstr[1] "%1$s smaoineamh ar “%2$s”"
+msgstr[2] "%1$s smaoineamh ar “%2$s”"
+msgstr[3] "%1$s smaoineamh ar “%2$s”"
+msgstr[4] "%1$s smaoineamh ar “%2$s”"
+
+#: archive.php:72
+msgid "Chats"
+msgstr "Comhráití"
+
+#: archive.php:75
+msgid "Archives"
+msgstr "Cartlanna"
+
+#: archive.php:69
+msgid "Statuses"
+msgstr "Céimíochtaí"
+
+#: archive.php:66
+msgid "Audios"
+msgstr "Fuaimeanna"
+
+#: archive.php:63
+msgid "Galleries"
+msgstr "Dánlanna"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Naisc"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Athfhriotail"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Físeáin"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Íomhánna"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Seachfhocla"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Bliain: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Mí: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Lá: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Údar: %s"
+
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Amharc ar na cartlanna míosa. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Ranganna Coitianta"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sén chaoi nár fríothadh tada anseo. B’fhéidir go mbreathnófá ar cheann de na naisc seo thíos nó go gcuartófá rud éigin."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ab bu búna! Dheamhan fáil ar bith ar an leathanach sin."

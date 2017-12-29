@@ -1,0 +1,324 @@
+/* ///////////////////////////////////
+STYLE:  NORCLISH PROJECT
+DESIGN: NORCKON
+DATE:   03/14/2014  FRI  14:39
+USE:    PRIVATE
+/////////////////////////////////// */
+
+@charset "utf-8";
+
+/* -------------ALL-THE-SITE-------------- */
+body {
+    margin:0;
+    background:#E9E9E9;
+    font-family: 'Josefin Sans', "微软雅黑", sans-serif;
+    font-size:16px;
+    color:#000000;
+}
+a {
+    color:#3573AC;
+    text-decoration:none;
+    transition:color .5s;
+}
+a:hover {
+    color:#188AF3;
+}
+#main {
+    background:#F8F8F8;
+    min-width:1000px;
+}
+/* ----------------TOP-AREA--------------- */
+#topbar {
+    width:100%; height:90px;
+    background:#FFFFFF;
+    border-bottom: 1px solid #ccc;
+    box-shadow: inset 0 -1px 0 #fafafa,0 1px 3px #ccc;
+}
+
+#menubar {
+    width:1000px; height:90px; line-height:90px;
+    margin:0 auto;
+}
+
+#menubar .logo {
+    float:left;
+    width:220px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:36px;
+    color:#008DFC;
+    text-align:center;
+    border-right:1px solid #F0F0F0;
+}
+
+#menubar .current {background:#F7F7F7;transition:background .3s;}
+#menubar .red {float:left;width:70px;height:88px;border-bottom:4px solid red; border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .red:hover {background:#F0F0F0;}
+#menubar .green {float:left;width:70px;height:88px;border-bottom:4px solid rgb(43, 243, 43); border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .green:hover {background:#F0F0F0;}
+#menubar .yellow {float:left;width:70px;height:88px;border-bottom:4px solid rgb(255, 235, 0); border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .yellow:hover {background:#F0F0F0;}
+#menubar .pink {float:left;width:70px;height:88px;border-bottom:4px solid pink; border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .pink:hover {background:#F0F0F0;}
+#menubar .blue {float:left;width:70px;height:88px;border-bottom:4px solid #0000FF; border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .blue:hover {background:#F0F0F0;}
+#menubar .lightblue {float:left;width:70px;height:88px;border-bottom:4px solid #008DFC; border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .lightblue:hover {background:#F0F0F0;}
+#menubar .purple {float:left;width:70px;height:88px;border-bottom:4px solid #F145F8; border-right:1px solid #F0F0F0;text-align:center;transition:background .3s;}
+#menubar .purple:hover {background:#F0F0F0;}
+
+#menubar a {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* --------------METRO-AREA--------------- */
+#metro {
+    width:1000px; height:auto;
+    margin:0 auto;
+    display:table;
+    background:#F8F8F8;
+}
+
+#metro > div {
+    float:left;
+    width:280px; height:auto;
+    min-height:140px;
+    margin:10px; padding:15px;
+    background: #ffffff;
+    box-shadow:0 1px 5px rgb(201, 201, 201);
+    border-top: 2px solid #008DFC;
+    transition:box-shadow .5s;
+}
+
+#metro > div:hover {
+    box-shadow:0 1px 10px gray;
+}
+
+#metro > div > t {
+    padding: 3px;
+    font-size:18px; 
+}
+
+#metro > div > p {
+    font-size: 17px;
+    color: #787878;
+}
+
+#metro .red {border-top: 2px solid red;}
+#metro .green {border-top: 2px solid rgb(43, 243, 43);}
+#metro .yellow {border-top: 2px solid rgb(255, 235, 0);}
+#metro .pink {border-top: 2px solid pink;}
+#metro .blue {border-top: 2px solid #0000FF;}
+#metro .purple {border-top: 2px solid #F145F8;}
+
+/* --------------TABLE-AREA--------------- */
+#table-info {
+	margin:0 auto;
+	width:610px;
+}
+
+#table-info .lable {
+	width:80px;
+	background: none repeat scroll 0% 0% rgb(199, 245, 255);
+	text-align: right;
+	padding: 3px 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#table-info .value {
+	background:#ffffff;
+	padding:5px 10px;
+	color: rgba(146, 146, 146, 1);
+    font-size: 14px;
+}
+
+#table-info .arrow {
+	width:0;
+    height:0;
+    border-top: 15px solid rgba(255, 255, 255, 1);
+	border-bottom: 15px solid rgba(255, 255, 255, 1);
+	border-right: 30px solid rgba(0, 0, 0, 0);
+}
+
+#table-info-append {
+	width:600px;
+	margin:0 auto;
+}
+
+#table-info .blank {
+    height:5px;
+}
+
+/* --------------FOOTER-AREA--------------- */
+#footer {
+    width:100%; height:90px;
+    background: #E9E9E9;
+    border-top: 1px solid #fff;
+    box-shadow: inset 0 2px 5px #A8A6A6;
+    margin-top: 20px;
+    text-align:center;
+    font-size: 14px;
+}
+
+/* ///////////////////////////////////
+STYLE:  NORCLISH SUBPAGE - ABOUT ME
+DESIGN: NORCKON
+DATE:   06/21/2014  FRI  08:54
+USE:    PRIVATE
+/////////////////////////////////// */
+
+#head-img {
+	width:600px;
+	margin:0 auto;
+	margin-top:25px;
+	margin-bottom:20px;
+}
+
+#head-img > img {
+	margin:0 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgb(222, 222, 222);
+}
+
+/* ///////////////////////////////////
+STYLE:  NORCLISH SUBPAGE - PROJECT
+DESIGN: NORCKON
+DATE:   06/21/2014  FRI  10:54
+USE:    PRIVATE
+/////////////////////////////////// */
+
+@-moz-keyframes img-1 {
+	0%		{opacity:0;}
+	20%		{opacity:1;}
+	40%		{opacity:1;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-moz-keyframes img-2 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:1;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-moz-keyframes img-3 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-moz-keyframes img-4 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:0;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-moz-keyframes img-5 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:0;}
+	80%		{opacity:0;}
+	100%	{opacity:1;}
+}
+
+@-webkit-keyframes img-1 {
+	0%		{opacity:0;}
+	20%		{opacity:1;}
+	40%		{opacity:1;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-webkit-keyframes img-2 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:1;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-webkit-keyframes img-3 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:1;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-webkit-keyframes img-4 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:0;}
+	80%		{opacity:1;}
+	100%	{opacity:1;}
+}
+@-webkit-keyframes img-5 {
+	0%		{opacity:0;}
+	20%		{opacity:0;}
+	40%		{opacity:0;}
+	60%		{opacity:0;}
+	80%		{opacity:0;}
+	100%	{opacity:1;}
+}
+
+#skill-img {
+	margin:0 auto;
+	display:table;
+	width: 760px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#skill-img img {
+	margin-right:-100px;
+}
+
+#skill-img div {
+	float:left;
+	transform: rotate(-20deg);
+}
+
+#skill-img div.img1 {margin-top: 0px;-moz-animation:img-1 3s;-webkit-animation:img-1 3s;}
+#skill-img div.img2 {margin-top: -1px;-moz-animation:img-2 3s;-webkit-animation:img-2 3s;}
+#skill-img div.img3 {margin-top: 0px;-moz-animation:img-3 3s;-webkit-animation:img-3 3s;}
+#skill-img div.img4 {margin-top: 2px;-moz-animation:img-4 3s;-webkit-animation:img-4 3s;}
+#skill-img div.img5 {margin-top: 3px;-moz-animation:img-5 3s;-webkit-animation:img-5 3s;}
+
+/* ///////////////////////////////////
+STYLE:  NORCLISH SUBPAGE - PROJECT
+DESIGN: NORCKON
+DATE:   06/21/2014  FRI  10:54
+USE:    PRIVATE
+/////////////////////////////////// */
+
+#webapp-img {
+	display:table;
+	margin:0 auto;
+}
+
+#webapp-img img {
+	max-width:550px;
+}
+
+#metro .imgbox {
+	float:left;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#metro .imgbox > img {
+	max-width:75px;
+}
+
+#metro .content {
+	font-size: 17px;
+    color: #787878;
+}

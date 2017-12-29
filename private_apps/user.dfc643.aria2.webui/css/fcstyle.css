@@ -1,0 +1,267 @@
+html, body, .container {
+    height:100%;
+    min-width:900px;
+}
+
+.container {
+    width:100% !important;
+    min-width:900px;
+}
+
+.container .main-head {
+    position:absolute;
+    min-width:900px;
+    top:0;
+    width:100%;
+    height:80px;
+    margin:0;
+    padding:0;
+    border-bottom:1px solid #6a9fec;
+    background: #aacdf9;
+    background: -moz-linear-gradient(top,  #aacdf9 0%, #81aef0 100%);
+    background: -webkit-linear-gradient(top,  #aacdf9 0%,#81aef0 100%);
+    background: linear-gradient(to bottom,  #aacdf9 0%,#81aef0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aacdf9', endColorstr='#81aef0',GradientType=0 );
+}
+
+.container .main-head img {
+    margin-top:14px;
+    margin-left:20px;
+}
+
+.container .left-frame {
+    width:220px;
+    float:left;
+    background:#edf5ff;
+    height:100%;
+    border-right:1px solid #c5ddfb;
+    box-shadow:-3px 0 12px rgba(197, 221, 251, 0.55) inset;
+}
+
+.container .left-frame .left-top-padding {
+    width:0px;
+    height:100px;
+}
+
+.container .left-frame .my-downloader {
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #c5ddfb;
+}
+.container .left-frame .aria2-info .title,
+.container .left-frame .my-downloader .title {font-size:18px; margin-left:10px;}
+.container .left-frame .my-downloader .mydev {margin-top:18px; color:#5578A9; margin-left:10px; margin-bottom:5px;}
+.container .left-frame .my-downloader #aria2-downloading,
+.container .left-frame .my-downloader #aria2-other {
+    height:30px; line-height:30px; text-indent:10px;
+    font-size:12px;
+    cursor:pointer;
+}
+.container .left-frame .my-downloader #aria2-downloading:hover,
+.container .left-frame .my-downloader #aria2-other:hover {
+    background: #d2e5fd;
+    background: -moz-linear-gradient(top,  #d2e5fd 0%, #c2d9f9 100%);
+    background: -webkit-linear-gradient(top,  #d2e5fd 0%,#c2d9f9 100%);
+    background: linear-gradient(to bottom,  #d2e5fd 0%,#c2d9f9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2e5fd', endColorstr='#c2d9f9',GradientType=0 );
+}
+.container .left-frame .my-downloader div.current {
+    color:#fff;
+    background: #a9ccf9;
+    background: -moz-linear-gradient(top,  #a9ccf9 0%, #81aff0 100%);
+    background: -webkit-linear-gradient(top,  #a9ccf9 0%,#81aff0 100%);
+    background: linear-gradient(to bottom,  #a9ccf9 0%,#81aff0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9ccf9', endColorstr='#81aff0',GradientType=0 );
+}
+
+.container .left-frame .aria2-info div {
+    float:left !important;
+}
+
+.container .left-frame .aria2-info .ab {
+    margin-left:10px;
+    margin-bottom: 2px;
+    color:#555;
+}
+
+.container .left-frame .aria2-info .ab span {
+    color:#888;
+}
+
+.container .left-frame .aria2-info .a {
+    margin-top:15px;
+}
+
+.container .left-frame .aria2-info .title {
+    margin-bottom:10px;
+}
+
+.container .right-frame {
+    width:auto;
+    float:left;
+    margin-top:80px;
+}
+
+.container .right-frame #main-control {
+    height:51px;
+    min-width:400px;
+    line-height:51px;
+    background: #ffffff;
+    margin:0;
+    border-bottom:1px solid #c5ddfb;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f0f6ff 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f0f6ff 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f0f6ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f6ff',GradientType=0 );
+}
+
+.container .right-frame #main-control .btn {
+    height:30px;
+    line-height:31px;
+    box-shadow:none;
+    text-shadow:none;
+    border:1px solid rgba(0,0,0,0);
+    background:rgba(0,0,0,0);
+    margin-top:-2px;
+}
+
+.container .right-frame #main-control .btn-group {
+    border-right:1px solid #D2D2D2;
+    height:35px;
+    display: block !important;
+    margin-top:10px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+.container .right-frame #main-control .btn:hover {
+    border:1px solid #a9ccf9;
+    background: #f4fbff;
+    background: -moz-linear-gradient(top,  #f4fbff 0%, #bad6fa 100%);
+    background: -webkit-linear-gradient(top,  #f4fbff 0%,#bad6fa 100%);
+    background: linear-gradient(to bottom,  #f4fbff 0%,#bad6fa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4fbff', endColorstr='#bad6fa',GradientType=0 );
+}
+
+.container .right-frame #main-control .btn i {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+
+.tasks-table .empty-tasks strong {
+    font-weight:normal;
+}
+
+.tasks-table li {
+    border-top:none;
+    border-bottom:1px dashed #c5ddfb;
+}
+
+.tasks-table li.selected,
+.tasks-table li:hover {
+    background:#dfedfd;
+}
+
+.tasks-table .task .task-name span {
+    width:60%;
+    display:block;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    font-weight:normal;
+    font-size: 15px;
+}
+
+.tasks-table .task .task-padding {
+    width:0;
+    height:18px;
+}
+
+.tasks-table .task .select-box {
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:3px;
+}
+
+.tasks-table .task .task-status {
+    float:left;
+    margin-top:3px;
+}
+
+.tasks-table .task .task-info {
+    margin-left:5px;
+    color: #949494;
+}
+
+.tasks-table .task .file-img {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: -4px;
+}
+
+.tasks-table .task .left-area {
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.tasks-table .task .right-area {
+    min-width:250px;
+    padding-right:20px;
+}
+
+#other-tasks .item-bar,
+#active-tasks .item-bar {
+    padding: 5px 0;
+    color:#ABABAB;
+    font-size:12px;
+    border-bottom:1px solid #ebf4fe;
+}
+
+.tasks-table {margin:0;}
+#active-tasks {margin:0;}
+#other-tasks {margin:0;}
+#active-tasks .section-header {display:none;}
+#other-tasks .section-header {display:none;}
+#other-tasks {display:none;}
+
+#active-tasks .item-bar .status {margin-left:30px;}
+#active-tasks .item-bar .size {margin-left:58px;}
+#active-tasks .item-bar .time {margin-left:53px;}
+#active-tasks .item-bar .prog {
+    position: absolute;
+    right: 0;
+    margin-right: 178px;
+}
+
+#other-tasks .item-bar .filename {margin-left:52px;}
+#other-tasks .item-bar .status {margin-left:34px;}
+#other-tasks .item-bar .size {margin-left:1px;}
+#other-tasks .item-bar .prog {
+    position: absolute;
+    right: 0;
+    margin-right: 244px;
+}
+
+i.icon-new {background: url(../img/icon-new.png);} /*0061c5*/
+i.icon-start {background: url(../img/icon-start.png);}
+i.icon-pause {background: url(../img/icon-pause.png);}
+i.icon-delete {background: url(../img/icon-delete.png);}
+i.icon-start-alt {background: url(../img/icon-start-alt.png);}
+i.icon-pause-alt {background: url(../img/icon-pause-alt.png);}
+i.icon-delete-alt {background: url(../img/icon-delete-alt.png);}
+i.icon-trash {background: url(../img/icon-trash.png);}
+i.icon-refresh {background: url(../img/icon-refresh.png);}
+i.icon-settings {background: url(../img/icon-settings.png);}
+i.icon-download-alt {background: url(../img/icon-download.png);}
+i.icon-trash-alt {background: url(../img/icon-trash.png); background-size: 15px;}
+i.icon-remove-alt {background: url(../img/icon-delete.png); background-size: 15px;}
+i.icon-pause-alt2 {background: url(../img/icon-pause.png); background-size: 15px;}
+i.icon-time-alt {background: url(../img/icon-clock-alt.png); background-size: 15px;}
+i.icon-ok-alt {background: url(../img/icon-ok-alt.png); background-size: 15px;}
