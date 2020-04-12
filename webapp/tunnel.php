@@ -162,7 +162,7 @@ $list_count = count($list_obj);
 <head>
 	<meta charset="utf-8" />
 	<title>国内隧道服务器</title>
-	<link href="https://lib.fcsys.org/bootstrap/bootstrap.3.3.6.min.css" type="text/css" rel="stylesheet"/>
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	<style>
 		body {background:#f5f5f5;}

@@ -179,7 +179,7 @@ $totalType = count($type_obj);
 <head>
 	<meta charset="utf-8" />
 	<title>电视家节目单</title>
-	<link href="https://lib.fcsys.org/bootstrap/bootstrap.3.3.6.min.css" type="text/css" rel="stylesheet"/>
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	<style>
 		body {background:#f5f5f5;}
@@ -320,7 +320,7 @@ $totalType = count($type_obj);
 		</tbody>
 	</table>
 	<center class="footer">
-		Copyright &copy; 2011-2016 <a href="http://www.fcsys.org">FC-System Computer Inc</a>.
+		Copyright &copy; 2011-2016 <a href="http://dfc643.github.io">FC-System Computer Inc</a>.
 	</center>
 </body>
 </html>

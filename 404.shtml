@@ -48,7 +48,7 @@
     <div id="content">
         <script type="text/javascript">
             var timer1 = 10;
-            var url = 'https://fcsys.org';
+            var url = 'https://dfc643.github.io';
             document.write('Oops, your access has some problem. Please check address you input (<input type="text" value="' + document.location.href + '"/>) and try <a href="javascript:location.reload();">reload page</a>. If the problem still is not solved, please <a href="mailto:dfc643@moegirl.org" target="_blank">contact administrator</a>.<br/><br/>');
             document.write('<b>Hostname: </b><input type="text" value="' + location.hostname + '" style="width:380px;"/><br/>');
             document.write('<b>Destination: </b><input type="text" value="' + location.pathname + '" style="width:370px;"/><br/>');
@@ -64,7 +64,7 @@
             function redirect_js(num) {
                 document.getElementById('redirect').innerHTML = '<b>'+ num +'</b> Seconds after will turn to FC-SYSTEM homepage.'; 
                 if(num==0) {
-                    window.location.href='https://fcsys.org';
+                    window.location.href='https://dfc643.github.io';
                 }
             }
         </script>

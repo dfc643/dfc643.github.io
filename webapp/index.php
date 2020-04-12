@@ -50,7 +50,7 @@
     <div id="content">
         <script type="text/javascript">
             var timer1 = 5;
-            var url = 'http://www.fcsys.org';
+            var url = 'http://dfc643.github.io';
             document.write('啊咧，网站好像出现了一些小问题。您所访问的页面是系统禁止查看的页面，请先暂时看看其他的页面。若问题依然没有解决请<a href="http://wpa.qq.com/msgrd?v=3&uin=328729030&site=FC-SYSTEM&menu=no" target="_blank">联系网站管理员</a>。<br/><br/>');
             document.write('主机名称：<input type="text" value="' + location.hostname + '" style="width:380px;"/><br/>');
             document.write('访问路径：<input type="text" value="' + location.pathname + '" style="width:380px;"/><br/>');
@@ -66,7 +66,7 @@
             function redirect_js(num) {
                 document.getElementById('redirect').innerHTML = '浏览器将在 '+ num +' 秒钟后跳转到极光计算机主页。'; 
                 if(num==0) {
-                    window.location.href='http://www.fcsys.org';
+                    window.location.href='http://dfc643.github.io';
                 }
             }
         </script>

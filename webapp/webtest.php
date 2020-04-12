@@ -84,7 +84,7 @@ function rnslookup($uplinkDns, $domain, $ipaddr, $timeout) {
     <meta charset="utf-8"/>
     <title>Website Accessibility Tester</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link href="https://lib.fcsys.org/bootstrap/bootstrap.3.3.6.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <style>
     .title,.sub-title,.main-container,.copyright {margin:0 auto;max-width:750px; text-align:center;}
     .title              {font-size:48px; color:#888; margin-top:50px;}
@@ -194,6 +194,6 @@ function rnslookup($uplinkDns, $domain, $ipaddr, $timeout) {
         }
         ?>
     </div>
-    <div class="copyright">Copyright &copy; 2011-2016 <a href="http://www.fcsys.org">FC-System Computer Inc</a>.</div>
+    <div class="copyright">Copyright &copy; 2011-2016 <a href="http://dfc643.github.io">FC-System Computer Inc</a>.</div>
 </body>
 </html>

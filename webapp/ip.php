@@ -157,8 +157,7 @@ $favicon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAA
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="http://lib.fcsys.org" rel="dns-prefetch" />
-    <link href="http://fcsys.org" rel="dns-prefetch" />
+    <link href="http://dfc643.github.io" rel="dns-prefetch" />
     <title><?php if($modeIP != NULL) echo $modeIP.' - '; ?>IP 信息查询</title>
     <meta name="robots" content="all" />
     <meta name="Keywords" content="ip,ip查询,手机ip,本机ip,外网ip,ip地址查询,手机号,归属地">
@@ -175,7 +174,7 @@ $favicon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAA
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     
-    <script src="http://lib.fcsys.org/dragscroll/dragscroll-0.0.4_micro.js"></script>
+    <script src="https://cdn.bootcss.com/dragscroll/0.0.4/dragscroll_micro.js"></script>
     <style>
     body                                    {background:#f5f5f5; font-family:"微软雅黑","Microsoft Yahei";}
     h5                                      {font-size:24px; color:#000; margin-top:15px; margin-bottom:0px; font-weight:normal;}
